@@ -4,6 +4,8 @@ A family of independent NeoForge 26.3 mods for Minecraft.
 
 The modules are designed to be enjoyable on their own. The core modules provide stable contracts and saved-world state so optional modules can cooperate without requiring the full family.
 
+For a Chinese introduction to the project, architecture, development workflow, current state, and roadmap, see [`docs/project-overview.md`](docs/project-overview.md).
+
 ## Modules
 
 - `tcivilization-core`: world history, shared events, persistent civilization state
