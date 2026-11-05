@@ -1,0 +1,4 @@
+{
+  "command.tcatlas.status": "Atlas: module loaded and ready for its first gameplay slice.",
+  "command.tcatlas.status.details": "Independent module boundary is active; see docs/design for the full specification."
+}
