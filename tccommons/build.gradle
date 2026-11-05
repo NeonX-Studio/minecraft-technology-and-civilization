@@ -1,0 +1,45 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = project.mod_group_id
+version = project.mod_version
+
+base {
+    archivesName = project.mod_id
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+        }
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+        }
+        data {
+            data()
+            gameDirectory = project.file('run/data')
+        }
+    }
+
+    mods {
+        tccommons {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+}

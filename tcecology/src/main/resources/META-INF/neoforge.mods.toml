@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="tcecology"
+version="${file.jarVersion}"
+displayName="Living Ecology"
+authors="Night City Creative Studio"
+description='''Species habitats, migration, food webs, and ecological succession. This module is independently loadable and currently exposes a stable vertical-slice status command for future gameplay systems.'''
+
+[[dependencies.tcecology]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.101,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcecology]]
+modId="minecraft"
+type="required"
+versionRange="[26.3]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcecology]]
+modId="tcivilization"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcecology]]
+modId="tctechnology"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
