@@ -1,0 +1,6 @@
+{
+  "command.tcivilization.status": "Civilization status",
+  "command.tcivilization.status.ticks": "World ticks: %s",
+  "command.tcivilization.status.logins": "Recorded player logins: %s",
+  "command.tcivilization.status.peak": "Peak concurrent players: %s"
+}

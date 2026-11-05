@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="tctechnology"
+version="${file.jarVersion}"
+displayName="Technology Core"
+authors="Night City Creative Studio"
+description='''Shared technology progression, research points, and capability contracts. This module is independently loadable and currently exposes a stable vertical-slice status command for future gameplay systems.'''
+
+[[dependencies.tctechnology]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.101,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tctechnology]]
+modId="minecraft"
+type="required"
+versionRange="[26.3]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tctechnology]]
+modId="tcivilization"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"

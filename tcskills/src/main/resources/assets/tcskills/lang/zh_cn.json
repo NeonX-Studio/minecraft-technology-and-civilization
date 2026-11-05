@@ -1,0 +1,13 @@
+{
+  "command.tcskills.status": "成长等级 %s | 熟练度 %s | 技能点 %s",
+  "command.tcskills.skills": "技能：%s",
+  "command.tcskills.talents": "天赋：%s",
+  "command.tcskills.bonuses": "熟练度加成：%s",
+  "command.tcskills.player_only": "技能和成长命令只能由玩家使用。",
+  "command.tcskills.level_up": "成长等级提升至 %s。你获得了 1 点技能点。",
+  "command.tcskills.learned": "已学习天赋：%s",
+  "command.tcskills.already_known": "你已经掌握这个天赋：%s",
+  "command.tcskills.no_points": "你没有可用的技能点。",
+  "command.tcskills.skill_up": "%s 技能提升至 %s 级。",
+  "command.tcskills.login": "玩家技能与成长档案已启用。使用 /tcskills status 查看。"
+}

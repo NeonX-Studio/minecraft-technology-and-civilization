@@ -1,0 +1,13 @@
+{
+  "command.tcskills.status": "Growth level %s | Proficiency %s | Skill points %s",
+  "command.tcskills.skills": "Skills: %s",
+  "command.tcskills.talents": "Talents: %s",
+  "command.tcskills.bonuses": "Proficiency bonuses: %s",
+  "command.tcskills.player_only": "Skills and growth commands can only be used by a player.",
+  "command.tcskills.level_up": "Growth level increased to %s. You gained a skill point.",
+  "command.tcskills.learned": "Talent learned: %s",
+  "command.tcskills.already_known": "You already know the talent: %s",
+  "command.tcskills.no_points": "You have no skill points available.",
+  "command.tcskills.skill_up": "%s skill increased to level %s.",
+  "command.tcskills.login": "Your skills and growth profile is active. Use /tcskills status."
+}

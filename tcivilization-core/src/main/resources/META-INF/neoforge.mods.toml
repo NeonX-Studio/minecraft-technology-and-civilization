@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "*"
+license = "MIT"
+
+[[mods]]
+modId = "tcivilization"
+version = "${file.jarVersion}"
+displayName = "Technology and Civilization Core"
+authors = "Night City Creative Studio"
+description = '''
+The simulation core for Technology and Civilization.
+'''
+
+[[dependencies.tcivilization]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tcivilization]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.3.0.101,)"
+ordering = "NONE"
+side = "BOTH"

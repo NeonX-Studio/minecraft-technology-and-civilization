@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="tcskills"
+version="${file.jarVersion}"
+displayName="Skills and Growth"
+authors="Night City Creative Studio"
+description='''Player proficiency, skills, skill points, talents, and proficiency bonuses. This module is independently playable and exposes a stable API for other family modules.'''
+
+[[dependencies.tcskills]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.101,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcskills]]
+modId="minecraft"
+type="required"
+versionRange="[26.3]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcskills]]
+modId="tcivilization"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcskills]]
+modId="tctechnology"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"

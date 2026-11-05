@@ -1,0 +1,6 @@
+{
+  "command.tcivilization.status": "文明状态",
+  "command.tcivilization.status.ticks": "世界刻：%s",
+  "command.tcivilization.status.logins": "记录的玩家登录次数：%s",
+  "command.tcivilization.status.peak": "最高同时在线人数：%s"
+}
