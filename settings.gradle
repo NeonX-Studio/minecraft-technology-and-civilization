@@ -1,0 +1,33 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = uri("https://maven.neoforged.net/releases") }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+rootProject.name = "technology-and-civilization"
+
+include(
+        ':tcivilization-core',
+        ':tctechnology',
+        ':tcskills',
+        ':tcwildlands',
+        ':tcecology',
+        ':tccultivation',
+        ':tcindustry',
+        ':tcnetworks',
+        ':tcsettlements',
+        ':tcexchange',
+        ':tcdiscovery',
+        ':tcechoes',
+        ':tccommons',
+        ':tcfrontiers',
+        ':tcbeyond',
+        ':tcatlas',
+        ':tcnations',
+        ':tcorbit'
+)
