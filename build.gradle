@@ -4,3 +4,35 @@ allprojects {
         maven { url = uri('https://maven.neoforged.net/releases') }
     }
 }
+
+subprojects {
+    plugins.withId('java') {
+        dependencies {
+            testImplementation platform('org.junit:junit-bom:5.12.2')
+            testImplementation 'org.junit.jupiter:junit-jupiter'
+            testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+        }
+
+        tasks.withType(Test).configureEach {
+            useJUnitPlatform()
+        }
+
+        project.afterEvaluate {
+            def modId = (project.findProperty('mod_id') ?: project.name).toString()
+            def modVer = project.version.toString()
+            def projName = project.name
+            tasks.withType(Jar).configureEach {
+                manifest {
+                    attributes([
+                            'Specification-Title'   : modId,
+                            'Specification-Vendor'  : 'Night City Creative Studio',
+                            'Specification-Version' : '1',
+                            'Implementation-Title'  : projName,
+                            'Implementation-Version': modVer,
+                            'Implementation-Vendor' : 'Night City Creative Studio'
+                    ])
+                }
+            }
+        }
+    }
+}

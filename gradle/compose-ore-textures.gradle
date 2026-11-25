@@ -1,0 +1,52 @@
+// Standalone Gradle script defining :tcwildlands:composeOreTextures (docs/design/32-art-audio.md#3.7).
+// Supports mounting from either root build.gradle or tcwildlands/build.gradle:
+//   apply from: rootProject.file('gradle/compose-ore-textures.gradle')
+
+def configureWildlandsOreTask = { Project wlProject ->
+    if (wlProject.tasks.names.contains('composeOreTextures')) {
+        return
+    }
+    def repoRoot = wlProject.findProperty('tcRepoRoot') ? new File(wlProject.findProperty('tcRepoRoot').toString()) : wlProject.rootProject.projectDir
+    def pythonExe = (wlProject.findProperty('pythonExecutable') ?: System.getenv('PYTHON_EXECUTABLE') ?: 'python').toString()
+    def composeScript = new File(repoRoot, 'tools/art-export/compose_ores.py')
+    def materialsJson = new File(repoRoot, 'art-src/materials.json')
+    def registriesJava = new File(repoRoot, 'tcwildlands/src/main/java/com/nightcity/wildlands/registry/WildlandsRegistries.java')
+    def overlaysDir = new File(repoRoot, 'art-src/ore_overlays')
+    def hostBasesDir = new File(repoRoot, 'art-src/host_bases')
+    def out64Dir = new File(repoRoot, 'tcwildlands/src/main/resources/assets/tcwildlands/textures/block')
+    def out128Dir = new File(repoRoot, 'resourcepacks/tc-pbr-128x/assets/tcwildlands/textures/block')
+
+    wlProject.tasks.register('composeOreTextures', Exec) {
+        group = 'art'
+        description = 'Composes 64x and 128x LabPBR 1.3 ore textures exclusively for legal WildlandsRegistries <host>_<mineral>_ore combinations.'
+        workingDir = repoRoot
+
+        inputs.file(composeScript)
+        inputs.file(materialsJson)
+        inputs.file(registriesJava)
+        if (overlaysDir.exists()) {
+            inputs.dir(overlaysDir)
+        }
+        if (hostBasesDir.exists()) {
+            inputs.dir(hostBasesDir)
+        }
+        outputs.dir(out64Dir)
+        outputs.dir(out128Dir)
+
+        commandLine(
+            pythonExe,
+            composeScript.absolutePath,
+            '--repo-root', repoRoot.absolutePath,
+            '--tiers', '64', '128'
+        )
+    }
+
+    wlProject.tasks.matching { it.name == 'processResources' }.configureEach {
+        mustRunAfter('composeOreTextures')
+    }
+}
+
+def targetWildlands = (path == ':tcwildlands') ? rootProject.project(':tcwildlands') : rootProject.findProject(':tcwildlands')
+if (targetWildlands != null) {
+    configureWildlandsOreTask(targetWildlands)
+}
