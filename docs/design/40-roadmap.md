@@ -1,7 +1,7 @@
 # 40 · 实现路线图 Implementation Roadmap
 
 > 状态：设计稿 v1  
-> 适用版本：v0.1（当前）→ v1.0  
+> 适用版本：v0.3（当前）→ v1.0  
 > 依赖章节：[00](00-vision-and-pillars.md)、[01](01-eras-and-progression.md)、[02](02-architecture.md)、03-24 各模组章节、[30](30-vanilla-overrides.md)-[36](36-registry-index.md)
 
 本章把整套设计拆成按顺序交付的阶段。每个阶段用 **退出标准（Exit Criteria，EC）** 收口：全部 EC 通过才发布对应版本号，没有日期，也不估工期。
@@ -75,8 +75,8 @@
 | 阶段 | 版本 | 代号 | 覆盖时代 | 已实现科技（累计） | 主线 | 退出门槛摘要 |
 | --- | --- | --- | --- | --- | --- | --- |
 | — | v0.1 | 骨架 Skeleton | — | 0 | 18 个模组占位、构建、打包 | 已完成 |
-| P0 | v0.2 | 地基 Foundation | — | 0（360 项占位数据） | 核心 API、科技加载器、技能框架、HUD 外壳、测试设施 | 加载矩阵全绿；API v1 冻结 |
-| P1 | v0.3 | 星球 Planet | — | 0 | Wildlands 星球生成、环绕、历史模拟骨架、Atlas 世界地图 | 确定性、无缝环绕、预计算 ≤ 100 s |
+| P0 | v0.2 | 地基 Foundation | — | 0（360 项占位数据） | 核心 API、科技加载器、技能框架、HUD 外壳、测试设施 | 已完成（加载矩阵全绿；API v1 冻结） |
+| P1 | v0.3 | 星球 Planet | — | 0 | Wildlands 星球生成、环绕、历史模拟骨架、Atlas 世界地图 | 已完成（确定性、无缝环绕、预计算 ≤ 100 s） |
 | P2 | v0.4 | 部族 Tribe | E0-E1 | 44 | 前 10 小时完整体验 | [01 §8](01-eras-and-progression.md) 脚本可完整通关 |
 | P3 | v0.5 | 城邦 City-State | E2-E3 | 106 | 冶金、文字、道路、货币、法律、遗迹、AI 文明登场 | 3 城 + 2 AI 文明，200 日经济稳定 |
 | P4 | v0.6 | 王国与远洋 Realms & Oceans | E4-E5 | 178 | 水力风力、造纸印刷、银行、远洋航行、航海图 | 跨洋贸易站维持 2 季 |
@@ -736,7 +736,7 @@ Beyond 的特殊规则：
 | 阶段 | 版本 | 状态 | 备注 |
 | --- | --- | --- | --- |
 | — | v0.1 | 已完成 | 18 个模组占位；`dist\Technology_and_Civilization-v0.1.zip`；已安装到 HMCL 实例 |
-| P0 | v0.2 | 未开始 | 设计文档完成后启动 |
+| P0 | v0.2 | 进行中（主体已就绪，待加载矩阵与运行期验证收口） | 已完成 `tcivilization-core` 核心 API v1/地区层 `.tcr` 存档/`person` 实体与调度器/UI 外壳、`tctechnology` 370 项科技加载校验、`tcskills` 22 技能与 154 天赋、`tcatlas` HUD 布局编辑器与时代皮肤、15 个主题模组依赖与桥接骨架，以及 Blender 三档 LOD 人物/3D 方块建模与 `tools/art-export` LabPBR 64x/128x 导出管线 |
 | P1-P8 | — | 未开始 | — |
 
 ---
