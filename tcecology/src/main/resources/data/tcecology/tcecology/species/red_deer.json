@@ -1,0 +1,19 @@
+{
+  "id": "tcecology:red_deer",
+  "entity": "tcecology:red_deer",
+  "fallback_entity": "minecraft:goat",
+  "category": "creature",
+  "k_base": 96,
+  "min_group": 3,
+  "max_group": 8,
+  "t_opt": 13.0,
+  "t_width": 10.0,
+  "p_opt": 850.0,
+  "p_width": 650.0,
+  "habitat": {
+    "forest": 0.85,
+    "edge": 1.0,
+    "shrub": 0.5
+  },
+  "relict": false
+}

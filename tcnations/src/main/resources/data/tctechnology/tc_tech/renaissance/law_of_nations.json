@@ -1,0 +1,36 @@
+{
+  "owner": "tcnations",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 324,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 32,
+        "daily_cap": 162,
+        "hint": "tech.tctechnology.renaissance.law_of_nations.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/resident_embassies",
+    "tctechnology:renaissance/printing_press"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "society",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

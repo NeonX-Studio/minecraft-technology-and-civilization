@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:polar_bear",
+    "minecraft:panda",
+    "minecraft:wolf",
+    { "id": "tcecology:red_deer", "required": false },
+    { "id": "tcecology:roe_deer", "required": false },
+    { "id": "tcecology:reindeer", "required": false },
+    { "id": "tcecology:aurochs", "required": false },
+    { "id": "tcecology:wild_boar", "required": false },
+    { "id": "tcecology:mouflon", "required": false },
+    { "id": "tcecology:bezoar_ibex", "required": false },
+    { "id": "tcecology:wild_horse", "required": false },
+    { "id": "tcecology:wild_ass", "required": false },
+    { "id": "tcecology:guanaco", "required": false },
+    { "id": "tcecology:bison", "required": false },
+    { "id": "tcecology:brown_bear", "required": false }
+  ]
+}

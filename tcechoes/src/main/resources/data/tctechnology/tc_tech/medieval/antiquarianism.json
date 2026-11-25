@@ -1,0 +1,36 @@
+{
+  "owner": "tcechoes",
+  "era": "medieval",
+  "rp": 650,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 110,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 11,
+        "daily_cap": 55,
+        "hint": "tech.tctechnology.medieval.antiquarianism.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/historiography",
+    "tctechnology:iron/masonry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

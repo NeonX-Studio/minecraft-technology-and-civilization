@@ -1,0 +1,20 @@
+{
+  "event.legend_revealed": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcechoes.event.legend_revealed"
+  },
+  "item.rubbing.take": {
+    "sounds": [
+      "minecraft:item/book/open_flip1"
+    ],
+    "subtitle": "subtitles.tcechoes.item.rubbing.take"
+  },
+  "block.relic_shrine.place": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcechoes.block.relic_shrine.place"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "tcecology",
+  "era": "neolithic",
+  "rp": 60,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 20,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 2,
+        "daily_cap": 10,
+        "hint": "tech.tctechnology.neolithic.game_management.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/snare_trapping"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

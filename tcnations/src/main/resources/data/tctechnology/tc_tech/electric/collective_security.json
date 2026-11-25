@@ -1,0 +1,36 @@
+{
+  "owner": "tcnations",
+  "era": "electric",
+  "rp": 3800,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1026,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 103,
+        "daily_cap": 513,
+        "hint": "tech.tctechnology.electric.collective_security.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/law_of_nations",
+    "tctechnology:electric/telegraphy"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "society",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

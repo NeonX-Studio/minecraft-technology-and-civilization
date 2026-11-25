@@ -1,0 +1,36 @@
+{
+  "owner": "tcecology",
+  "era": "atomic",
+  "rp": 5800,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 480,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 48,
+        "daily_cap": 240,
+        "hint": "tech.tctechnology.atomic.radio_telemetry.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/wildlife_conservation",
+    "tctechnology:atomic/transistor"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

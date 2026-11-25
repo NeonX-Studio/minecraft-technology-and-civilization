@@ -1,0 +1,18 @@
+{
+  "id": "tcecology:reindeer",
+  "entity": "tcecology:reindeer",
+  "fallback_entity": "minecraft:goat",
+  "category": "creature",
+  "k_base": 120,
+  "min_group": 4,
+  "max_group": 10,
+  "t_opt": -6.0,
+  "t_width": 9.0,
+  "p_opt": 400.0,
+  "p_width": 450.0,
+  "habitat": {
+    "tundra": 1.0,
+    "boreal": 0.75
+  },
+  "relict": false
+}

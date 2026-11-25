@@ -1,0 +1,36 @@
+{
+  "owner": "tcnations",
+  "era": "medieval",
+  "rp": 650,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 175,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 18,
+        "daily_cap": 88,
+        "hint": "tech.tctechnology.medieval.resident_embassies.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/envoys",
+    "tctechnology:medieval/papermaking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "society",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

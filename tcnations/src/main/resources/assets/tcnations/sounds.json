@@ -1,0 +1,32 @@
+{
+  "event.first_contact": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcnations.event.first_contact"
+  },
+  "event.envoy_horn": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcnations.event.envoy_horn"
+  },
+  "event.treaty_seal": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcnations.event.treaty_seal"
+  },
+  "event.war_declared": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcnations.event.war_declared"
+  },
+  "event.peace_signed": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcnations.event.peace_signed"
+  }
+}

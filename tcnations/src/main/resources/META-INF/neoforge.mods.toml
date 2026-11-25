@@ -25,13 +25,34 @@ side="BOTH"
 
 [[dependencies.tcnations]]
 modId="tcivilization"
-type="optional"
+type="required"
 versionRange="[0.1.0,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.tcnations]]
 modId="tctechnology"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcnations]]
+modId="tcechoes"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tcnations]]
+modId="tcwildlands"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tcnations]]
+modId="tcskills"
 type="optional"
 versionRange="[0.1.0,)"
 ordering="NONE"

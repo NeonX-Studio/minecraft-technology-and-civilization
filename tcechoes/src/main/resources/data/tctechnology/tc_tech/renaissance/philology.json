@@ -1,0 +1,36 @@
+{
+  "owner": "tcechoes",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 160,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 16,
+        "daily_cap": 80,
+        "hint": "tech.tctechnology.renaissance.philology.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/antiquarianism",
+    "tctechnology:renaissance/printing_press"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 6
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

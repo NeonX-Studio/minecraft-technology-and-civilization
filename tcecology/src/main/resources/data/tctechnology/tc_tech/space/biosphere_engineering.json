@@ -1,0 +1,36 @@
+{
+  "owner": "tcecology",
+  "era": "space",
+  "rp": 13000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 750,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 75,
+        "daily_cap": 375,
+        "hint": "tech.tctechnology.space.biosphere_engineering.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:information/ecosystem_restoration",
+    "tctechnology:space/life_support"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcecology",
+  "era": "stone",
+  "rp": 25,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 10,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 1,
+        "daily_cap": 5,
+        "hint": "tech.tctechnology.stone.snare_trapping.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/game_tracking",
+    "tctechnology:stone/knapping"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

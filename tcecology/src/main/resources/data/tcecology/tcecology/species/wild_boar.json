@@ -1,0 +1,18 @@
+{
+  "id": "tcecology:wild_boar",
+  "entity": "tcecology:wild_boar",
+  "fallback_entity": "minecraft:pig",
+  "category": "creature",
+  "k_base": 80,
+  "min_group": 3,
+  "max_group": 7,
+  "t_opt": 15.0,
+  "t_width": 9.0,
+  "p_opt": 850.0,
+  "p_width": 600.0,
+  "habitat": {
+    "forest": 1.0,
+    "wetland": 0.55
+  },
+  "relict": false
+}

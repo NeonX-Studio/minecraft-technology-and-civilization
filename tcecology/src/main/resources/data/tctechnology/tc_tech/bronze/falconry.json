@@ -1,0 +1,36 @@
+{
+  "owner": "tcecology",
+  "era": "bronze",
+  "rp": 140,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 40,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 4,
+        "daily_cap": 20,
+        "hint": "tech.tctechnology.bronze.falconry.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:neolithic/animal_husbandry",
+    "tctechnology:stone/game_tracking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

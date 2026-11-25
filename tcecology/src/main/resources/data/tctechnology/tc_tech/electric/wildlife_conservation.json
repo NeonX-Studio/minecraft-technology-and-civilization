@@ -1,0 +1,36 @@
+{
+  "owner": "tcecology",
+  "era": "electric",
+  "rp": 3600,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 360,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 36,
+        "daily_cap": 180,
+        "hint": "tech.tctechnology.electric.wildlife_conservation.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/scientific_forestry",
+    "tctechnology:renaissance/natural_history"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 3
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

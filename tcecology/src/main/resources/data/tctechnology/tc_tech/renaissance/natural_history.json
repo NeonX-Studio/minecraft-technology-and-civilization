@@ -1,0 +1,36 @@
+{
+  "owner": "tcecology",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 180,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 18,
+        "daily_cap": 90,
+        "hint": "tech.tctechnology.renaissance.natural_history.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/scientific_method",
+    "tctechnology:stone/game_tracking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

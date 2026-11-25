@@ -1,0 +1,38 @@
+{
+  "ambient.dawn_chorus": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcecology.ambient.dawn_chorus"
+  },
+  "ambient.frog_chorus": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcecology.ambient.frog_chorus"
+  },
+  "ambient.wolf_howl": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcecology.ambient.wolf_howl"
+  },
+  "ambient.deer_rut": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcecology.ambient.deer_rut"
+  },
+  "ambient.crane_call": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcecology.ambient.crane_call"
+  },
+  "entity.generic_wild.flee": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcecology.entity.generic_wild.flee"
+  }
+}

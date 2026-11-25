@@ -15,6 +15,10 @@ java {
     }
 }
 
+dependencies {
+    implementation project(':tcivilization-core')
+}
+
 neoForge {
     version = project.neo_version
 
@@ -37,6 +41,11 @@ neoForge {
         tcnations {
             sourceSet sourceSets.main
         }
+    }
+
+    unitTest {
+        enable()
+        testedMod = mods.tcnations
     }
 }
 
