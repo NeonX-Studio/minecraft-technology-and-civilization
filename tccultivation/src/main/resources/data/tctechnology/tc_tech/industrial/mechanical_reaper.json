@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "industrial",
+  "rp": 2200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 190,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 19,
+        "daily_cap": 95,
+        "hint": "tech.tctechnology.industrial.mechanical_reaper.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/heavy_plough",
+    "tctechnology:industrial/machine_tools"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

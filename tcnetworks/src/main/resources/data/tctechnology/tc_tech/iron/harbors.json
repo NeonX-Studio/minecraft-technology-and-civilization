@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "iron",
+  "rp": 330,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 70,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 7,
+        "daily_cap": 35,
+        "hint": "tech.tctechnology.iron.harbors.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/galleys",
+    "tctechnology:iron/masonry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "atomic",
+  "rp": 6000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 320,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 32,
+        "daily_cap": 160,
+        "hint": "tech.tctechnology.atomic.green_revolution.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/synthetic_fertilizer",
+    "tctechnology:industrial/pedigree_breeding"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

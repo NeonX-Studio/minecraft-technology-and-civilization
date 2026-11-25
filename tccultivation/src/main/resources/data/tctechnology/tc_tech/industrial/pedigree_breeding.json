@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "industrial",
+  "rp": 2200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 190,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 19,
+        "daily_cap": 95,
+        "hint": "tech.tctechnology.industrial.pedigree_breeding.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/selective_breeding",
+    "tctechnology:renaissance/scientific_method"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

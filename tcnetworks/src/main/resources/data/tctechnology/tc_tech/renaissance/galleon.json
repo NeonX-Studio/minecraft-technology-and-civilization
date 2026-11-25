@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "renaissance",
+  "rp": 1400,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 150,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 15,
+        "daily_cap": 75,
+        "hint": "tech.tctechnology.renaissance.galleon.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/caravel",
+    "tctechnology:renaissance/celestial_navigation"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "electric",
+  "rp": 3400,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 850,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 85,
+        "daily_cap": 425,
+        "hint": "tech.tctechnology.electric.electrochemistry.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/dynamo"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

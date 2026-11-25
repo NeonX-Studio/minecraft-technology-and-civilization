@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "space",
+  "rp": 18000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 4500,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 450,
+        "daily_cap": 2250,
+        "hint": "tech.tctechnology.space.fusion_experiment.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/advanced_fission",
+    "tctechnology:information/smart_grid"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 3
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

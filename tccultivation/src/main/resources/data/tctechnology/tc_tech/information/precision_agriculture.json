@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "information",
+  "rp": 9000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 400,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 40,
+        "daily_cap": 200,
+        "hint": "tech.tctechnology.information.precision_agriculture.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/agrochemicals",
+    "tctechnology:information/integrated_circuit"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "atomic",
+  "rp": 5500,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 310,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 31,
+        "daily_cap": 155,
+        "hint": "tech.tctechnology.atomic.highways.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/motor_vehicles",
+    "tctechnology:industrial/civil_engineering"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

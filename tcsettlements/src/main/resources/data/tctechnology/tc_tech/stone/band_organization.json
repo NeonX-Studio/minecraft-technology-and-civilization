@@ -1,0 +1,35 @@
+{
+  "owner": "tcsettlements",
+  "era": "stone",
+  "rp": 15,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 8,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 1,
+        "daily_cap": 4,
+        "hint": "tech.tctechnology.stone.band_organization.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/foraging_lore"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

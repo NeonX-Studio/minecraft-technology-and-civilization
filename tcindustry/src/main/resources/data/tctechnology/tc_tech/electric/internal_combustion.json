@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "electric",
+  "rp": 4200,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 1050,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 105,
+        "daily_cap": 525,
+        "hint": "tech.tctechnology.electric.internal_combustion.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/oil_refining",
+    "tctechnology:industrial/machine_tools"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 4
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcexchange",
+  "era": "bronze",
+  "rp": 160,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 45,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 4,
+        "daily_cap": 23,
+        "hint": "tech.tctechnology.bronze.weights_and_measures.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/commodity_money",
+    "tctechnology:bronze/smelting"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "economy",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

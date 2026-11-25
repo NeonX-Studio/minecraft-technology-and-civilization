@@ -1,0 +1,36 @@
+{
+  "owner": "tcsettlements",
+  "era": "atomic",
+  "rp": 6500,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1300,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 130,
+        "daily_cap": 650,
+        "hint": "tech.tctechnology.atomic.high_rise_housing.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/tenement_housing",
+    "tctechnology:industrial/steelmaking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

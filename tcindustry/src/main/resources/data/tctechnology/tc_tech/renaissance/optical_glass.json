@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 300,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 30,
+        "daily_cap": 150,
+        "hint": "tech.tctechnology.renaissance.optical_glass.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/glassblowing",
+    "tctechnology:medieval/brickmaking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

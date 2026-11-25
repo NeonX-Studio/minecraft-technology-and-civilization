@@ -1,0 +1,35 @@
+{
+  "owner": "tcnetworks",
+  "era": "neolithic",
+  "rp": 50,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 25,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 2,
+        "daily_cap": 13,
+        "hint": "tech.tctechnology.neolithic.sledges.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/raft_building"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

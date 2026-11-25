@@ -1,0 +1,35 @@
+{
+  "owner": "tcsettlements",
+  "era": "neolithic",
+  "rp": 55,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 15,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 2,
+        "daily_cap": 8,
+        "hint": "tech.tctechnology.neolithic.herbal_healing.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/foraging_lore"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

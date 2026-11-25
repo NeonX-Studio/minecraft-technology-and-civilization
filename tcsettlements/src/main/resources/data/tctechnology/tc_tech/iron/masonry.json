@@ -1,0 +1,35 @@
+{
+  "owner": "tcsettlements",
+  "era": "iron",
+  "rp": 320,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 80,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 8,
+        "daily_cap": 40,
+        "hint": "tech.tctechnology.iron.masonry.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/mudbrick_architecture"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

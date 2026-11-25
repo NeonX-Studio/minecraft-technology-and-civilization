@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "iron",
+  "rp": 320,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 70,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 7,
+        "daily_cap": 35,
+        "hint": "tech.tctechnology.iron.selective_breeding.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:neolithic/seed_selection",
+    "tctechnology:neolithic/animal_husbandry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

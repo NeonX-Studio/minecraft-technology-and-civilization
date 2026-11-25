@@ -1,0 +1,20 @@
+{
+  "event.coin_clink": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcexchange.event.coin_clink"
+  },
+  "block.mint.strike": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tcexchange.block.mint.strike"
+  },
+  "block.market_stall.bell": {
+    "sounds": [
+      "minecraft:block/bell/bell_use01"
+    ],
+    "subtitle": "subtitles.tcexchange.block.market_stall.bell"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "vehicle.cart.roll": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.cart.roll"
+  },
+  "vehicle.locomotive.whistle": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.locomotive.whistle"
+  },
+  "vehicle.locomotive.chuff": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.locomotive.chuff"
+  },
+  "vehicle.ship.creak": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.ship.creak"
+  },
+  "vehicle.ship.horn": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.ship.horn"
+  },
+  "vehicle.car.engine": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.car.engine"
+  },
+  "vehicle.car.horn": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.car.horn"
+  },
+  "vehicle.aircraft.propeller": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.aircraft.propeller"
+  },
+  "vehicle.aircraft.jet": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.aircraft.jet"
+  },
+  "vehicle.tram.bell": {
+    "sounds": [
+      "minecraft:block/bell/bell_use01"
+    ],
+    "subtitle": "subtitles.tcnetworks.vehicle.tram.bell"
+  },
+  "block.signal.change": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcnetworks.block.signal.change"
+  },
+  "block.telegraph.key": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcnetworks.block.telegraph.key"
+  },
+  "block.crane.operate": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcnetworks.block.crane.operate"
+  },
+  "block.lock.water": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcnetworks.block.lock.water"
+  },
+  "ambient.station.bustle": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcnetworks.ambient.station.bustle"
+  },
+  "ambient.port.gulls": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcnetworks.ambient.port.gulls"
+  },
+  "ui.dispatch.alert": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcnetworks.ui.dispatch.alert"
+  },
+  "event.milestone.first_train": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcnetworks.event.milestone.first_train"
+  }
+}

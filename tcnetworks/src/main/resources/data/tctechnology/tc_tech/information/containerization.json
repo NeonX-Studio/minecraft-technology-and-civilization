@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "information",
+  "rp": 8500,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 390,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 39,
+        "daily_cap": 195,
+        "hint": "tech.tctechnology.information.containerization.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/warehousing",
+    "tctechnology:atomic/oil_tankers"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

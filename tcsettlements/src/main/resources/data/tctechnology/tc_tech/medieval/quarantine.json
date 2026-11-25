@@ -1,0 +1,35 @@
+{
+  "owner": "tcsettlements",
+  "era": "medieval",
+  "rp": 550,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 130,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 13,
+        "daily_cap": 65,
+        "hint": "tech.tctechnology.medieval.quarantine.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/hospitals"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

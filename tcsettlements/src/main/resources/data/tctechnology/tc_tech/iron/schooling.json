@@ -1,0 +1,36 @@
+{
+  "owner": "tcsettlements",
+  "era": "iron",
+  "rp": 300,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 70,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 7,
+        "daily_cap": 35,
+        "hint": "tech.tctechnology.iron.schooling.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/census",
+    "tctechnology:bronze/writing"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

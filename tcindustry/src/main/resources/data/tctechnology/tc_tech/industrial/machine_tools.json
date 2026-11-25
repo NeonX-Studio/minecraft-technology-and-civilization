@@ -1,0 +1,37 @@
+{
+  "owner": "tcindustry",
+  "era": "industrial",
+  "rp": 2600,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 650,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 65,
+        "daily_cap": 325,
+        "hint": "tech.tctechnology.industrial.machine_tools.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/steam_engine",
+    "tctechnology:renaissance/precision_brass",
+    "tctechnology:renaissance/rolling_mill"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 4
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

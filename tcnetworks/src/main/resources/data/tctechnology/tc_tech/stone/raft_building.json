@@ -1,0 +1,35 @@
+{
+  "owner": "tcnetworks",
+  "era": "stone",
+  "rp": 20,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 10,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 1,
+        "daily_cap": 5,
+        "hint": "tech.tctechnology.stone.raft_building.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/knapping"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

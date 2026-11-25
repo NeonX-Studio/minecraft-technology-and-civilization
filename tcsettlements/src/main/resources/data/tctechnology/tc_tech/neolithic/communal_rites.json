@@ -1,0 +1,35 @@
+{
+  "owner": "tcsettlements",
+  "era": "neolithic",
+  "rp": 45,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 12,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 1,
+        "daily_cap": 6,
+        "hint": "tech.tctechnology.neolithic.communal_rites.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/band_organization"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 3
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

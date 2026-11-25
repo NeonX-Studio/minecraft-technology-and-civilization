@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "atomic",
+  "rp": 6500,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 330,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 33,
+        "daily_cap": 165,
+        "hint": "tech.tctechnology.atomic.powered_flight.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/motor_vehicles",
+    "tctechnology:electric/internal_combustion"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "space",
+  "rp": 13000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 3250,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 325,
+        "daily_cap": 1625,
+        "hint": "tech.tctechnology.space.space_solar.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:information/photovoltaics"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

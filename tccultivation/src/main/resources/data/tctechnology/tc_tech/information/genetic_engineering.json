@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "information",
+  "rp": 9000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 400,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 40,
+        "daily_cap": 200,
+        "hint": "tech.tctechnology.information.genetic_engineering.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/green_revolution",
+    "tctechnology:atomic/transistor"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

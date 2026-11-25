@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "renaissance",
+  "rp": 1250,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 312,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 31,
+        "daily_cap": 156,
+        "hint": "tech.tctechnology.renaissance.rolling_mill.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/trip_hammer"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 3
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

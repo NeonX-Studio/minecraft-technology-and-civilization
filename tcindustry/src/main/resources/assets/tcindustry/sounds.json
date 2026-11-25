@@ -1,0 +1,194 @@
+{
+  "machine.steam_engine.run": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.steam_engine.run"
+  },
+  "machine.steam_engine.chuff": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.steam_engine.chuff"
+  },
+  "machine.gear_whine": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.gear_whine"
+  },
+  "machine.belt_slip": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.belt_slip"
+  },
+  "machine.bearing_squeal": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.bearing_squeal"
+  },
+  "machine.fault.generic": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.fault.generic"
+  },
+  "block.boiler.safety_valve": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.boiler.safety_valve"
+  },
+  "block.boiler.hiss": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.boiler.hiss"
+  },
+  "block.furnace.roar": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.furnace.roar"
+  },
+  "block.forge.strike": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tcindustry.block.forge.strike"
+  },
+  "block.forge.quench": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tcindustry.block.forge.quench"
+  },
+  "block.grid.transformer_hum": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.grid.transformer_hum"
+  },
+  "event.grid.breaker_trip": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcindustry.event.grid.breaker_trip"
+  },
+  "event.reactor.alarm": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcindustry.event.reactor.alarm"
+  },
+  "event.accident.explosion": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.event.accident.explosion"
+  },
+  "machine.jam": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.jam"
+  },
+  "machine.waterwheel.turn": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.waterwheel.turn"
+  },
+  "machine.windmill.creak": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.windmill.creak"
+  },
+  "machine.trip_hammer.strike": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.trip_hammer.strike"
+  },
+  "machine.loom.clack": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.loom.clack"
+  },
+  "machine.lathe.cut": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.lathe.cut"
+  },
+  "machine.centrifuge.whine": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.centrifuge.whine"
+  },
+  "machine.conveyor.run": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.conveyor.run"
+  },
+  "machine.pump.run": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.pump.run"
+  },
+  "machine.diesel_engine.run": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.diesel_engine.run"
+  },
+  "machine.gas_turbine.run": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.gas_turbine.run"
+  },
+  "machine.turbine.run": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcindustry.machine.turbine.run"
+  },
+  "block.kiln.crackle": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.kiln.crackle"
+  },
+  "block.converter.blow": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.converter.blow"
+  },
+  "block.pipe.leak": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcindustry.block.pipe.leak"
+  },
+  "event.process.complete": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcindustry.event.process.complete"
+  },
+  "event.multiblock.formed": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcindustry.event.multiblock.formed"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "industrial",
+  "rp": 1800,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 450,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 45,
+        "daily_cap": 225,
+        "hint": "tech.tctechnology.industrial.coal_gas.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/coke_ironmaking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 8
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

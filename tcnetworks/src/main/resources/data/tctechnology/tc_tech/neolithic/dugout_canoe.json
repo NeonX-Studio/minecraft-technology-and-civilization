@@ -1,0 +1,35 @@
+{
+  "owner": "tcnetworks",
+  "era": "neolithic",
+  "rp": 55,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 25,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 2,
+        "daily_cap": 13,
+        "hint": "tech.tctechnology.neolithic.dugout_canoe.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/raft_building"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

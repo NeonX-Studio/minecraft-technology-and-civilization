@@ -25,13 +25,20 @@ side="BOTH"
 
 [[dependencies.tccultivation]]
 modId="tcivilization"
-type="optional"
+type="required"
 versionRange="[0.1.0,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.tccultivation]]
 modId="tctechnology"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tccultivation]]
+modId="tcskills"
 type="optional"
 versionRange="[0.1.0,)"
 ordering="NONE"

@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "atomic",
+  "rp": 5500,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1375,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 138,
+        "daily_cap": 688,
+        "hint": "tech.tctechnology.atomic.petrochemicals.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/oil_refining",
+    "tctechnology:electric/industrial_chemistry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 4
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

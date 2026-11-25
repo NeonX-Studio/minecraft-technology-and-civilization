@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "information",
+  "rp": 10500,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 2625,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 262,
+        "daily_cap": 1313,
+        "hint": "tech.tctechnology.information.integrated_circuit.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/transistor"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

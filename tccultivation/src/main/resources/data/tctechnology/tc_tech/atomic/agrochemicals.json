@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "atomic",
+  "rp": 5600,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 320,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 32,
+        "daily_cap": 160,
+        "hint": "tech.tctechnology.atomic.agrochemicals.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/soil_chemistry",
+    "tctechnology:electric/industrial_chemistry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

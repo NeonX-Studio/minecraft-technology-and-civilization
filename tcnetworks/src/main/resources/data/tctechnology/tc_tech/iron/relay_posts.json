@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "iron",
+  "rp": 280,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 60,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 6,
+        "daily_cap": 30,
+        "hint": "tech.tctechnology.iron.relay_posts.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/road_building",
+    "tctechnology:bronze/writing"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 3
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

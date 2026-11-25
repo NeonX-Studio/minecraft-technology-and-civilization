@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "atomic",
+  "rp": 5200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1300,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 130,
+        "daily_cap": 650,
+        "hint": "tech.tctechnology.atomic.plastics.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/petrochemicals"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

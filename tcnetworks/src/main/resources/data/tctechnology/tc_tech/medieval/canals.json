@@ -1,0 +1,35 @@
+{
+  "owner": "tcnetworks",
+  "era": "medieval",
+  "rp": 700,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 105,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 10,
+        "daily_cap": 53,
+        "hint": "tech.tctechnology.medieval.canals.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/harbors"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

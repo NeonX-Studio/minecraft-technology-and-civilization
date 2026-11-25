@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "atomic",
+  "rp": 5200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1300,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 130,
+        "daily_cap": 650,
+        "hint": "tech.tctechnology.atomic.titanium_metallurgy.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/electrochemistry",
+    "tctechnology:electric/electric_arc_furnace"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 7
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

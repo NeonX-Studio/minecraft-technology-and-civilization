@@ -1,0 +1,35 @@
+{
+  "owner": "tcindustry",
+  "era": "iron",
+  "rp": 260,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 65,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 6,
+        "daily_cap": 33,
+        "hint": "tech.tctechnology.iron.lime_mortar.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/charcoal_burning"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 4
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

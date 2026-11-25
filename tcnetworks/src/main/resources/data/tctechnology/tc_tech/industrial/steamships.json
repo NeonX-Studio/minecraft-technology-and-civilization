@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "industrial",
+  "rp": 2200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 190,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 19,
+        "daily_cap": 95,
+        "hint": "tech.tctechnology.industrial.steamships.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/galleon",
+    "tctechnology:industrial/steam_engine"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcsettlements",
+  "era": "information",
+  "rp": 9000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1800,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 180,
+        "daily_cap": 900,
+        "hint": "tech.tctechnology.information.epidemic_surveillance.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/antibiotics",
+    "tctechnology:information/computer_networks"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

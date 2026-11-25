@@ -1,0 +1,36 @@
+{
+  "owner": "tcsettlements",
+  "era": "renaissance",
+  "rp": 1250,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 260,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 26,
+        "daily_cap": 130,
+        "hint": "tech.tctechnology.renaissance.anatomy.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/hospitals",
+    "tctechnology:renaissance/scientific_method"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

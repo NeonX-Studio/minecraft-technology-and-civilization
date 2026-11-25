@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "renaissance",
+  "rp": 1100,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 275,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 28,
+        "daily_cap": 138,
+        "hint": "tech.tctechnology.renaissance.porcelain.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/brickmaking",
+    "tctechnology:bronze/potters_wheel"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

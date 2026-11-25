@@ -1,0 +1,36 @@
+{
+  "owner": "tcnetworks",
+  "era": "renaissance",
+  "rp": 1100,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 135,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 14,
+        "daily_cap": 68,
+        "hint": "tech.tctechnology.renaissance.caravel.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/cog_ships",
+    "tctechnology:medieval/magnetic_compass"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

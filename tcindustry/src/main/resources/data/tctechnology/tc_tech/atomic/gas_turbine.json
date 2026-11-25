@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "atomic",
+  "rp": 5600,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1400,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 140,
+        "daily_cap": 700,
+        "hint": "tech.tctechnology.atomic.gas_turbine.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/internal_combustion",
+    "tctechnology:electric/electric_arc_furnace"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 6
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

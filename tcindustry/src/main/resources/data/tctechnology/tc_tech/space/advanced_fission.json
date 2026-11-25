@@ -1,0 +1,36 @@
+{
+  "owner": "tcindustry",
+  "era": "space",
+  "rp": 14000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 3500,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 350,
+        "daily_cap": 1750,
+        "hint": "tech.tctechnology.space.advanced_fission.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/nuclear_fission",
+    "tctechnology:information/automation"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

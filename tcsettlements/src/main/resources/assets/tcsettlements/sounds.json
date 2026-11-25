@@ -1,0 +1,50 @@
+{
+  "ambient.crowd.small": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcsettlements.ambient.crowd.small"
+  },
+  "ambient.crowd.medium": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcsettlements.ambient.crowd.medium"
+  },
+  "ambient.crowd.large": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcsettlements.ambient.crowd.large"
+  },
+  "ambient.village.day": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcsettlements.ambient.village.day"
+  },
+  "event.birth": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcsettlements.event.birth"
+  },
+  "event.settlement_upgrade": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcsettlements.event.settlement_upgrade"
+  },
+  "block.town_bell.ring": {
+    "sounds": [
+      "minecraft:block/bell/bell_use01"
+    ],
+    "subtitle": "subtitles.tcsettlements.block.town_bell.ring"
+  },
+  "event.epidemic": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcsettlements.event.epidemic"
+  }
+}

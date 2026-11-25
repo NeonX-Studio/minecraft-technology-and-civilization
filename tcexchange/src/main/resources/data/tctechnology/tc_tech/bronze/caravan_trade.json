@@ -1,0 +1,36 @@
+{
+  "owner": "tcexchange",
+  "era": "bronze",
+  "rp": 180,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 50,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 5,
+        "daily_cap": 25,
+        "hint": "tech.tctechnology.bronze.caravan_trade.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:neolithic/barter",
+    "tctechnology:neolithic/animal_husbandry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "economy",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

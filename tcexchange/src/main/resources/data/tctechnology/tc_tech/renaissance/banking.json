@@ -1,0 +1,36 @@
+{
+  "owner": "tcexchange",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 140,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 14,
+        "daily_cap": 70,
+        "hint": "tech.tctechnology.renaissance.banking.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/bills_of_exchange",
+    "tctechnology:medieval/guilds"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "economy",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

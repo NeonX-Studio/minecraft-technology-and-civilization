@@ -1,0 +1,36 @@
+{
+  "owner": "tccultivation",
+  "era": "electric",
+  "rp": 3600,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 250,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 25,
+        "daily_cap": 125,
+        "hint": "tech.tctechnology.electric.synthetic_fertilizer.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/soil_chemistry",
+    "tctechnology:electric/industrial_chemistry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "food",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

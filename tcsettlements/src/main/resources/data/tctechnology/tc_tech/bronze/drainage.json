@@ -1,0 +1,35 @@
+{
+  "owner": "tcsettlements",
+  "era": "bronze",
+  "rp": 130,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 30,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 3,
+        "daily_cap": 15,
+        "hint": "tech.tctechnology.bronze.drainage.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:neolithic/well_digging"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}
