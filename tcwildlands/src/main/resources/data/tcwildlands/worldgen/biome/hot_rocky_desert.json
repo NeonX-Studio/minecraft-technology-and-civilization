@@ -1,0 +1,32 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#70b6ff",
+    "minecraft:visual/fog_color": "#d6d4be",
+    "minecraft:visual/water_fog_color": "#142a48"
+  },
+  "carvers": [],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#3f76e4",
+    "grass_color": "#bfb755",
+    "foliage_color": "#aea42a",
+    "dry_foliage_color": "#967444"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_dead_bush"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 1.7
+}

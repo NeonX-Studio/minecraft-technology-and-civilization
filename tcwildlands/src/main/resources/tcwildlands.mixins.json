@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.nightcity.wildlands.mixin",
+  "plugin": "com.nightcity.wildlands.mixin.WildlandsMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LevelWeatherMixin"
+  ],
+  "client": [
+    "ClientTimeRemapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

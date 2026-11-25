@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tcwildlands:raw_bog_iron",
+    "tcwildlands:raw_hematite",
+    "tcwildlands:raw_magnetite"
+  ]
+}

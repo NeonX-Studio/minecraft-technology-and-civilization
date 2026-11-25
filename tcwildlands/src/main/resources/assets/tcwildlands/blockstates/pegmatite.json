@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/pegmatite",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/pegmatite",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "tcwildlands:block/pegmatite",
+        "weight": 3,
+        "y": 180
+      },
+      {
+        "model": "tcwildlands:block/pegmatite",
+        "weight": 2,
+        "y": 270
+      },
+      {
+        "model": "tcwildlands:block/pegmatite_v1",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/pegmatite_v1",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "tcwildlands:block/pegmatite_v1",
+        "weight": 3,
+        "y": 180
+      },
+      {
+        "model": "tcwildlands:block/pegmatite_v1",
+        "weight": 2,
+        "y": 270
+      }
+    ]
+  }
+}

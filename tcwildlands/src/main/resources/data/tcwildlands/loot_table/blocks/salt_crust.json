@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "name": "tcwildlands:salt_crust"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcwildlands:blocks/salt_crust"
+}

@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "tcwildlands:bituminous_coal_seam"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tcwildlands:raw_bituminous_coal",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 1,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tcwildlands:bituminous_coal_seam",
+                      "properties": {
+                        "grade": "poor"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:set_count",
+                  "count": 2,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tcwildlands:bituminous_coal_seam",
+                      "properties": {
+                        "grade": "normal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:set_count",
+                  "count": 3,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tcwildlands:bituminous_coal_seam",
+                      "properties": {
+                        "grade": "rich"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcwildlands:blocks/bituminous_coal_seam"
+}

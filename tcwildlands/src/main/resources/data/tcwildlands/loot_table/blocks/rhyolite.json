@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "tcwildlands:rhyolite"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:survives_explosion"
+              },
+              "name": "tcwildlands:rhyolite_cobble"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcwildlands:blocks/rhyolite"
+}

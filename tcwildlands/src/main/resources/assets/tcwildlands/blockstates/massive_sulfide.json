@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/massive_sulfide",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide",
+        "weight": 3,
+        "y": 180
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide",
+        "weight": 2,
+        "y": 270
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide_v1",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide_v1",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide_v1",
+        "weight": 3,
+        "y": 180
+      },
+      {
+        "model": "tcwildlands:block/massive_sulfide_v1",
+        "weight": 2,
+        "y": 270
+      }
+    ]
+  }
+}

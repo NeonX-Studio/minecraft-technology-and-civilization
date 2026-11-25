@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/kimberlite_cobble",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/kimberlite_cobble",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "tcwildlands:block/kimberlite_cobble",
+        "weight": 3,
+        "y": 180
+      },
+      {
+        "model": "tcwildlands:block/kimberlite_cobble",
+        "weight": 2,
+        "y": 270
+      }
+    ]
+  }
+}

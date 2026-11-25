@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "tcwildlands:diorite_molybdenite_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tcwildlands:raw_molybdenite",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 1,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tcwildlands:diorite_molybdenite_ore",
+                      "properties": {
+                        "grade": "poor"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:set_count",
+                  "count": 2,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tcwildlands:diorite_molybdenite_ore",
+                      "properties": {
+                        "grade": "normal"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:set_count",
+                  "count": 3,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tcwildlands:diorite_molybdenite_ore",
+                      "properties": {
+                        "grade": "rich"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcwildlands:blocks/diorite_molybdenite_ore"
+}

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "tcfoundry"
+      }
+    }
+  ],
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": "tcwildlands:raw_native_copper",
+  "result": {
+    "id": "minecraft:copper_ingot"
+  }
+}

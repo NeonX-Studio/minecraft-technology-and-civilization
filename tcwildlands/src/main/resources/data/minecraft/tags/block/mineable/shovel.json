@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "tcwildlands:alluvium",
+    "tcwildlands:black_sand",
+    "tcwildlands:chernozem",
+    "tcwildlands:flood_silt",
+    "tcwildlands:kaolinite",
+    "tcwildlands:laterite",
+    "tcwildlands:loess",
+    "tcwildlands:marl",
+    "tcwildlands:peat",
+    "tcwildlands:permafrost",
+    "tcwildlands:quartz_sand",
+    "tcwildlands:saprolite",
+    "tcwildlands:silt",
+    "tcwildlands:terra_rossa",
+    "tcwildlands:till",
+    "tcwildlands:volcanic_ash"
+  ]
+}

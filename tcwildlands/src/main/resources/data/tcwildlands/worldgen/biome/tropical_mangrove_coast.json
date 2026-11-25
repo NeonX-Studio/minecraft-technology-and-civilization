@@ -1,0 +1,33 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#70b6ff",
+    "minecraft:visual/fog_color": "#c0d8ff",
+    "minecraft:visual/water_fog_color": "#1b3028"
+  },
+  "carvers": [],
+  "downfall": 0.85,
+  "effects": {
+    "water_color": "#3a7a6a",
+    "grass_color": "#68ab46",
+    "foliage_color": "#62a238",
+    "dry_foliage_color": "#7b5334"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:trees_mangrove",
+      "minecraft:patch_grass_jungle"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "temperature": 1.05
+}

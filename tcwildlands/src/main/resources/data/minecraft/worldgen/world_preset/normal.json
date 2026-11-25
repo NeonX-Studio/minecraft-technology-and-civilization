@@ -1,0 +1,32 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "tcwildlands:earthlike",
+      "generator": {
+        "type": "tcwildlands:planet",
+        "biome_source": {
+          "type": "tcwildlands:planet"
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "tcwildlands:deep_earth",
+      "generator": {
+        "type": "tcwildlands:deep_earth",
+        "biome_source": {
+          "type": "tcwildlands:deep_earth"
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:end",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        }
+      }
+    }
+  }
+}

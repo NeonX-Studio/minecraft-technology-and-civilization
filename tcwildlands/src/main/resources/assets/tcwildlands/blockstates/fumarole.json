@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/fumarole",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/fumarole",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "tcwildlands:block/fumarole",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "tcwildlands:block/fumarole",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}

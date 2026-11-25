@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/basalt_rock_native_copper_ore",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/basalt_rock_native_copper_ore",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "tcwildlands:block/basalt_rock_native_copper_ore",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "tcwildlands:block/basalt_rock_native_copper_ore",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}

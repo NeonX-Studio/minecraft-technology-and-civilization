@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/eclogite_rutile_ore",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/eclogite_rutile_ore",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "tcwildlands:block/eclogite_rutile_ore",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "tcwildlands:block/eclogite_rutile_ore",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}

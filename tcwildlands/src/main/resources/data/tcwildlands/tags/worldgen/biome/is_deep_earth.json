@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tcwildlands:deep_granite_batholith",
+    "tcwildlands:deep_hydrothermal_caverns",
+    "tcwildlands:deep_magma_chambers",
+    "tcwildlands:deep_mantle_plume",
+    "tcwildlands:deep_kimberlite_roots"
+  ]
+}

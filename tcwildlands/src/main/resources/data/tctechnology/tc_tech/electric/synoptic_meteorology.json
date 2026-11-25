@@ -1,0 +1,36 @@
+{
+  "owner": "tcwildlands",
+  "era": "electric",
+  "rp": 3800,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 250,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 25,
+        "daily_cap": 125,
+        "hint": "tech.tctechnology.electric.synoptic_meteorology.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/meteorology",
+    "tctechnology:electric/telegraphy"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/bitumen_seep",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/bitumen_seep",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "tcwildlands:block/bitumen_seep",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "tcwildlands:block/bitumen_seep",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}

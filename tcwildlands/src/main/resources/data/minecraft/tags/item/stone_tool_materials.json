@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "tcwildlands:andesite_cobble",
+    "tcwildlands:basalt_rock_cobble",
+    "tcwildlands:chalk_cobble",
+    "tcwildlands:conglomerate_cobble",
+    "tcwildlands:diorite_cobble",
+    "tcwildlands:dolomite_cobble",
+    "tcwildlands:eclogite_cobble",
+    "tcwildlands:gabbro_cobble",
+    "tcwildlands:gneiss_cobble",
+    "tcwildlands:granite_cobble",
+    "tcwildlands:gypsum_rock_cobble",
+    "tcwildlands:kimberlite_cobble",
+    "tcwildlands:limestone_cobble",
+    "tcwildlands:marble_cobble",
+    "tcwildlands:mudstone_cobble",
+    "tcwildlands:obsidian_cobble",
+    "tcwildlands:pegmatite_cobble",
+    "tcwildlands:peridotite_cobble",
+    "tcwildlands:pumice_cobble",
+    "tcwildlands:quartzite_cobble",
+    "tcwildlands:rhyolite_cobble",
+    "tcwildlands:rock_salt_cobble",
+    "tcwildlands:sandstone_rock_cobble",
+    "tcwildlands:schist_cobble",
+    "tcwildlands:shale_cobble",
+    "tcwildlands:slate_cobble",
+    "tcwildlands:tuff_cobble"
+  ]
+}

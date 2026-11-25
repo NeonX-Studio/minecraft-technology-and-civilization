@@ -1,0 +1,36 @@
+{
+  "owner": "tcwildlands",
+  "era": "renaissance",
+  "rp": 1150,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 135,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 14,
+        "daily_cap": 68,
+        "hint": "tech.tctechnology.renaissance.meteorology.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/hydrology",
+    "tctechnology:renaissance/scientific_method"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

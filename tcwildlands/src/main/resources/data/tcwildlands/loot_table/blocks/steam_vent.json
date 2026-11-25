@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "name": "tcwildlands:steam_vent"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcwildlands:blocks/steam_vent"
+}

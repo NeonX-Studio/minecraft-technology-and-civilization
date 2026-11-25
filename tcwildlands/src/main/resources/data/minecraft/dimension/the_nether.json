@@ -1,0 +1,9 @@
+{
+  "type": "tcwildlands:deep_earth",
+  "generator": {
+    "type": "tcwildlands:deep_earth",
+    "biome_source": {
+      "type": "tcwildlands:deep_earth"
+    }
+  }
+}

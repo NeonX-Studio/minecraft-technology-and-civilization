@@ -1,0 +1,8 @@
+{
+  "values": {
+    "tcwildlands:raw_peat": { "burn_time": 600 },
+    "tcwildlands:raw_lignite": { "burn_time": 1200 },
+    "tcwildlands:raw_bituminous_coal": { "burn_time": 1800 },
+    "tcwildlands:raw_anthracite": { "burn_time": 2800 }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "tcwildlands:marble_cobble",
+  "result": {
+    "id": "tcwildlands:marble"
+  }
+}

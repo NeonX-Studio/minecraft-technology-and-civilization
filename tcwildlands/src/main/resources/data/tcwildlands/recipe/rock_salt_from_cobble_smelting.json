@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "tcwildlands:rock_salt_cobble",
+  "result": {
+    "id": "tcwildlands:rock_salt"
+  }
+}

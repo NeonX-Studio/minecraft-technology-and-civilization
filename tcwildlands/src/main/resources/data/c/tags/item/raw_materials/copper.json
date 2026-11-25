@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tcwildlands:raw_native_copper",
+    "tcwildlands:raw_malachite",
+    "tcwildlands:raw_chalcopyrite"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "tcwildlands:gabbro",
+    "tcwildlands:rhyolite",
+    "tcwildlands:basalt_rock",
+    "tcwildlands:pumice",
+    "tcwildlands:peridotite",
+    "tcwildlands:sandstone_rock",
+    "tcwildlands:shale",
+    "tcwildlands:limestone",
+    "tcwildlands:dolomite",
+    "tcwildlands:chalk",
+    "tcwildlands:conglomerate",
+    "tcwildlands:mudstone",
+    "tcwildlands:rock_salt",
+    "tcwildlands:gypsum_rock",
+    "tcwildlands:slate",
+    "tcwildlands:schist",
+    "tcwildlands:gneiss",
+    "tcwildlands:marble",
+    "tcwildlands:quartzite",
+    "tcwildlands:pegmatite",
+    "tcwildlands:kimberlite",
+    "tcwildlands:eclogite"
+  ]
+}

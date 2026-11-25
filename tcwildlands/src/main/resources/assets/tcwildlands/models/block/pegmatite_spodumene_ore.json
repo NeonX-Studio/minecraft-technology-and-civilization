@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tcwildlands:block/pegmatite_spodumene_ore"
+  }
+}

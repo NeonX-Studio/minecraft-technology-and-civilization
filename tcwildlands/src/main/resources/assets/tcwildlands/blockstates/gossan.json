@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/gossan",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/gossan",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "tcwildlands:block/gossan",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "tcwildlands:block/gossan",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}

@@ -34,12 +34,30 @@ neoForge {
     }
 
     mods {
+        tcivilization {
+            sourceSet project(':tcivilization-core').sourceSets.main
+        }
         tcwildlands {
             sourceSet sourceSets.main
         }
     }
+
+    unitTest {
+        enable()
+        testedMod = mods.tcwildlands
+    }
+}
+
+dependencies {
+    implementation project(':tcivilization-core')
 }
 
 sourceSets.main.resources {
     srcDir 'src/generated/resources'
 }
+
+tasks.withType(Test).configureEach {
+    maxHeapSize = '2g'
+}
+
+apply from: rootProject.file('gradle/compose-ore-textures.gradle')

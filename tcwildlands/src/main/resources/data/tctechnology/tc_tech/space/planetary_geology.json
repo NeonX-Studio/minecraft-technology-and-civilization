@@ -1,0 +1,36 @@
+{
+  "owner": "tcwildlands",
+  "era": "space",
+  "rp": 13000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 500,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 50,
+        "daily_cap": 250,
+        "hint": "tech.tctechnology.space.planetary_geology.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/geophysical_survey",
+    "tctechnology:space/in_situ_resources"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

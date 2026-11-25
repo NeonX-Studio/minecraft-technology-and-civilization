@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tcwildlands:block/geyser",
+        "weight": 4
+      },
+      {
+        "model": "tcwildlands:block/geyser",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "tcwildlands:block/geyser",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "tcwildlands:block/geyser",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}
