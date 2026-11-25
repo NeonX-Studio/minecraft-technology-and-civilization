@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:andesite_native_silver_ore",
+  "material": "native_silver",
+  "host": "andesite",
+  "mineral": "native_silver",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (andesite host + native_silver overlay; 32-art-audio.md#3.7)"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:schist_native_gold_ore",
+  "material": "native_gold",
+  "host": "schist",
+  "mineral": "native_gold",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (schist host + native_gold overlay; 32-art-audio.md#3.7)"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:sandstone_rock_hematite_ore",
+  "material": "hematite",
+  "host": "sandstone_rock",
+  "mineral": "hematite",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (sandstone_rock host + hematite overlay; 32-art-audio.md#3.7)"
+}

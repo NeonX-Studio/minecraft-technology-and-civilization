@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "niter",
+  "material": "niter",
+  "morphology": "dendritic",
+  "master_resolution": 512
+}

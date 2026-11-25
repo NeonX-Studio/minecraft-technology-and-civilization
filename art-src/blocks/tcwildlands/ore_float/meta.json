@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:ore_float",
+  "material": "quartzite",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 14,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_ore_float.blend",
+  "description": "Alluvial mineralized boulder float with oxidized copper-iron vein bands (10-wildlands.md#5.10.5)"
+}

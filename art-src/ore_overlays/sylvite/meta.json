@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "sylvite",
+  "material": "sylvite",
+  "morphology": "cubic",
+  "master_resolution": 512
+}

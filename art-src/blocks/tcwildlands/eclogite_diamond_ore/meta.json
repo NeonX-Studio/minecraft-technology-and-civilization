@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:eclogite_diamond_ore",
+  "material": "diamond",
+  "host": "eclogite",
+  "mineral": "diamond",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (eclogite host + diamond overlay; 32-art-audio.md#3.7)"
+}

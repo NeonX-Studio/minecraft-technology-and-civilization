@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:slate",
+  "material": "slate",
+  "variants": 2,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "P1 Wildlands seamless 4D-torus PBR block (raw, cleaved_foliated)"
+}

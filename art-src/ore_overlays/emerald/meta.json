@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "emerald",
+  "material": "emerald",
+  "morphology": "prismatic",
+  "master_resolution": 512
+}

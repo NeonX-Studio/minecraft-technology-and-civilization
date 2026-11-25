@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:gypsum_rock_sulfur_ore",
+  "material": "sulfur",
+  "host": "gypsum_rock",
+  "mineral": "sulfur",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (gypsum_rock host + sulfur overlay; 32-art-audio.md#3.7)"
+}

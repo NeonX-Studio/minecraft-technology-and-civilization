@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcivilization:placeholder",
+  "material": "slate",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 2048,
+  "element_count": 9,
+  "source_blend": "art-src\\blend\\blocks\\tcivilization_placeholder.blend",
+  "description": "RM-P8 chiseled stone stele placeholder block (zero missing-texture checkerboard)"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:steam_vent",
+  "material": "gneiss",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 15,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_steam_vent.blend",
+  "description": "Deep-earth fractured hydrothermal rock steam vent nozzle (10-wildlands.md#5.16.4)"
+}

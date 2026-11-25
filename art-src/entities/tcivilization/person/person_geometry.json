@@ -1,0 +1,984 @@
+{
+  "mod_id": "tcivilization",
+  "entity_id": "person",
+  "spec_ref": "docs/design/32-art-audio.md#4.2-4.3",
+  "textures": {
+    "lod0_base": "textures/entity/person/person_lod0_base.png",
+    "lod0_hair_e0": "textures/entity/person/person_lod0_hair_e0.png",
+    "lod0_outfit_e0_hide": "textures/entity/person/person_lod0_outfit_e0_hide.png",
+    "lod0_composite_e0": "textures/entity/person/person_lod0_composite_e0.png",
+    "lod1_e0": "textures/entity/person/person_lod1_e0.png",
+    "lod2_e0": "textures/entity/person/person_lod2_e0.png"
+  },
+  "lods": {
+    "lod0": {
+      "description": "LOD0 (<= 16 blocks) full modular humanoid geometry with separate facial expression, hair, E0 hide/hemp clothing layers, headwear mount, and tool sockets.",
+      "source_blend": "art-src/entities/tcivilization/person/person_lod0.blend",
+      "texture_size": [
+        128,
+        128
+      ],
+      "use_armature": true,
+      "parts": [
+        {
+          "name": "waist",
+          "pose": {
+            "offset": [
+              0.0,
+              12.0,
+              0.0
+            ]
+          },
+          "bone_tail_delta": [
+            0.0,
+            0.0,
+            0.15
+          ],
+          "boxes": [],
+          "material_style": "skin",
+          "texture_layer": "base",
+          "children": [
+            {
+              "name": "body",
+              "pose": {
+                "offset": [
+                  0.0,
+                  -12.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                0.35
+              ],
+              "material_style": "skin",
+              "texture_layer": "base",
+              "boxes": [
+                {
+                  "origin": [
+                    -4.0,
+                    0.0,
+                    -2.0
+                  ],
+                  "size": [
+                    8.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    0,
+                    20
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "name": "outfit_top",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    0.25
+                  ],
+                  "material_style": "hide_top",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -4.0,
+                        0.0,
+                        -2.0
+                      ],
+                      "size": [
+                        8.0,
+                        12.0,
+                        4.0
+                      ],
+                      "uv": [
+                        64,
+                        0
+                      ],
+                      "deformation": 0.25
+                    },
+                    {
+                      "origin": [
+                        -4.5,
+                        9.5,
+                        -2.5
+                      ],
+                      "size": [
+                        9.0,
+                        2.0,
+                        5.0
+                      ],
+                      "uv": [
+                        64,
+                        18
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "pose": {
+                "offset": [
+                  0.0,
+                  -12.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                0.45
+              ],
+              "material_style": "skin",
+              "texture_layer": "base",
+              "boxes": [
+                {
+                  "origin": [
+                    -4.0,
+                    -8.0,
+                    -4.0
+                  ],
+                  "size": [
+                    8.0,
+                    8.0,
+                    8.0
+                  ],
+                  "uv": [
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "name": "face_expression",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    -0.1,
+                    0.0
+                  ],
+                  "material_style": "face",
+                  "texture_layer": "base",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -3.0,
+                        -5.0,
+                        -4.15
+                      ],
+                      "size": [
+                        2.0,
+                        1.0,
+                        1.0
+                      ],
+                      "uv": [
+                        36,
+                        0
+                      ]
+                    },
+                    {
+                      "origin": [
+                        1.0,
+                        -5.0,
+                        -4.15
+                      ],
+                      "size": [
+                        2.0,
+                        1.0,
+                        1.0
+                      ],
+                      "uv": [
+                        44,
+                        0
+                      ]
+                    },
+                    {
+                      "origin": [
+                        -1.5,
+                        -2.2,
+                        -4.1
+                      ],
+                      "size": [
+                        3.0,
+                        1.0,
+                        1.0
+                      ],
+                      "uv": [
+                        36,
+                        4
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "hair_layer",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    0.25
+                  ],
+                  "material_style": "hair",
+                  "texture_layer": "hair",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -4.0,
+                        -8.0,
+                        -4.0
+                      ],
+                      "size": [
+                        8.0,
+                        8.0,
+                        8.0
+                      ],
+                      "uv": [
+                        0,
+                        64
+                      ],
+                      "deformation": 0.35
+                    },
+                    {
+                      "origin": [
+                        -1.5,
+                        -2.0,
+                        3.5
+                      ],
+                      "size": [
+                        3.0,
+                        5.0,
+                        2.0
+                      ],
+                      "uv": [
+                        36,
+                        64
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "headwear_mount",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      -8.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    0.15
+                  ],
+                  "material_style": "socket",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -4.5,
+                        -1.0,
+                        -4.5
+                      ],
+                      "size": [
+                        9.0,
+                        2.0,
+                        9.0
+                      ],
+                      "uv": [
+                        64,
+                        96
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right_arm",
+              "pose": {
+                "offset": [
+                  -5.0,
+                  -10.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.45
+              ],
+              "material_style": "skin",
+              "texture_layer": "base",
+              "boxes": [
+                {
+                  "origin": [
+                    -3.0,
+                    -2.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    28,
+                    20
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "name": "outfit_right_sleeve",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    -0.2
+                  ],
+                  "material_style": "hide_top",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -3.0,
+                        -2.0,
+                        -2.0
+                      ],
+                      "size": [
+                        4.0,
+                        7.0,
+                        4.0
+                      ],
+                      "uv": [
+                        96,
+                        0
+                      ],
+                      "deformation": 0.22
+                    }
+                  ]
+                },
+                {
+                  "name": "right_hand_tool_mount",
+                  "pose": {
+                    "offset": [
+                      -1.0,
+                      9.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    -0.15,
+                    0.0
+                  ],
+                  "material_style": "socket",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -1.0,
+                        -1.0,
+                        -1.0
+                      ],
+                      "size": [
+                        2.0,
+                        2.0,
+                        2.0
+                      ],
+                      "uv": [
+                        104,
+                        96
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left_arm",
+              "pose": {
+                "offset": [
+                  5.0,
+                  -10.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.45
+              ],
+              "material_style": "skin",
+              "texture_layer": "base",
+              "boxes": [
+                {
+                  "origin": [
+                    -1.0,
+                    -2.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    46,
+                    20
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "name": "outfit_left_sleeve",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    -0.2
+                  ],
+                  "material_style": "hide_top",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -1.0,
+                        -2.0,
+                        -2.0
+                      ],
+                      "size": [
+                        4.0,
+                        7.0,
+                        4.0
+                      ],
+                      "uv": [
+                        96,
+                        14
+                      ],
+                      "deformation": 0.22
+                    }
+                  ]
+                },
+                {
+                  "name": "left_hand_tool_mount",
+                  "pose": {
+                    "offset": [
+                      1.0,
+                      9.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    -0.15,
+                    0.0
+                  ],
+                  "material_style": "socket",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -1.0,
+                        -1.0,
+                        -1.0
+                      ],
+                      "size": [
+                        2.0,
+                        2.0,
+                        2.0
+                      ],
+                      "uv": [
+                        114,
+                        96
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right_leg",
+              "pose": {
+                "offset": [
+                  -1.9,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.55
+              ],
+              "material_style": "skin",
+              "texture_layer": "base",
+              "boxes": [
+                {
+                  "origin": [
+                    -2.0,
+                    0.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    0,
+                    40
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "name": "outfit_bottom_right",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    -0.3
+                  ],
+                  "material_style": "hemp_bottom",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -2.0,
+                        0.0,
+                        -2.0
+                      ],
+                      "size": [
+                        4.0,
+                        9.0,
+                        4.0
+                      ],
+                      "uv": [
+                        64,
+                        32
+                      ],
+                      "deformation": 0.2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left_leg",
+              "pose": {
+                "offset": [
+                  1.9,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.55
+              ],
+              "material_style": "skin",
+              "texture_layer": "base",
+              "boxes": [
+                {
+                  "origin": [
+                    -2.0,
+                    0.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    18,
+                    40
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "name": "outfit_bottom_left",
+                  "pose": {
+                    "offset": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "bone_tail_delta": [
+                    0.0,
+                    0.0,
+                    -0.3
+                  ],
+                  "material_style": "hemp_bottom",
+                  "texture_layer": "outfit",
+                  "boxes": [
+                    {
+                      "origin": [
+                        -2.0,
+                        0.0,
+                        -2.0
+                      ],
+                      "size": [
+                        4.0,
+                        9.0,
+                        4.0
+                      ],
+                      "uv": [
+                        84,
+                        32
+                      ],
+                      "deformation": 0.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lod1": {
+      "description": "LOD1 (16-48 blocks) simplified humanoid rig with clothing layers merged onto torso and limbs, no separate facial expression mesh.",
+      "source_blend": "art-src/entities/tcivilization/person/person_lod1.blend",
+      "texture_size": [
+        64,
+        64
+      ],
+      "use_armature": true,
+      "parts": [
+        {
+          "name": "body",
+          "pose": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "bone_tail_delta": [
+            0.0,
+            0.0,
+            -0.5
+          ],
+          "material_style": "hide_top",
+          "texture_layer": "merged",
+          "boxes": [
+            {
+              "origin": [
+                -4.0,
+                0.0,
+                -2.0
+              ],
+              "size": [
+                8.0,
+                12.0,
+                4.0
+              ],
+              "uv": [
+                0,
+                18
+              ]
+            }
+          ],
+          "children": [
+            {
+              "name": "head",
+              "pose": {
+                "offset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                0.45
+              ],
+              "material_style": "skin",
+              "texture_layer": "merged",
+              "boxes": [
+                {
+                  "origin": [
+                    -4.0,
+                    -8.0,
+                    -4.0
+                  ],
+                  "size": [
+                    8.0,
+                    8.0,
+                    8.0
+                  ],
+                  "uv": [
+                    0,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right_arm",
+              "pose": {
+                "offset": [
+                  -5.0,
+                  2.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.45
+              ],
+              "material_style": "hide_top",
+              "texture_layer": "merged",
+              "boxes": [
+                {
+                  "origin": [
+                    -3.0,
+                    -2.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    26,
+                    18
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left_arm",
+              "pose": {
+                "offset": [
+                  5.0,
+                  2.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.45
+              ],
+              "material_style": "hide_top",
+              "texture_layer": "merged",
+              "boxes": [
+                {
+                  "origin": [
+                    -1.0,
+                    -2.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    44,
+                    18
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right_leg",
+              "pose": {
+                "offset": [
+                  -1.9,
+                  12.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.55
+              ],
+              "material_style": "hemp_bottom",
+              "texture_layer": "merged",
+              "boxes": [
+                {
+                  "origin": [
+                    -2.0,
+                    0.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    0,
+                    36
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left_leg",
+              "pose": {
+                "offset": [
+                  1.9,
+                  12.0,
+                  0.0
+                ]
+              },
+              "bone_tail_delta": [
+                0.0,
+                0.0,
+                -0.55
+              ],
+              "material_style": "hemp_bottom",
+              "texture_layer": "merged",
+              "boxes": [
+                {
+                  "origin": [
+                    -2.0,
+                    0.0,
+                    -2.0
+                  ],
+                  "size": [
+                    4.0,
+                    12.0,
+                    4.0
+                  ],
+                  "uv": [
+                    18,
+                    36
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lod2": {
+      "description": "LOD2 (48-128 blocks) single-mesh low-poly static pose proxy with baked base colors (no skeletal animation).",
+      "source_blend": "art-src/entities/tcivilization/person/person_lod2.blend",
+      "texture_size": [
+        64,
+        32
+      ],
+      "use_armature": false,
+      "parts": [
+        {
+          "name": "proxy",
+          "pose": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "material_style": "hide_top",
+          "texture_layer": "proxy",
+          "boxes": [
+            {
+              "origin": [
+                -3.5,
+                -8.0,
+                -3.5
+              ],
+              "size": [
+                7.0,
+                8.0,
+                7.0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -5.5,
+                0.0,
+                -2.0
+              ],
+              "size": [
+                11.0,
+                12.0,
+                4.0
+              ],
+              "uv": [
+                30,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                12.0,
+                -2.0
+              ],
+              "size": [
+                7.0,
+                12.0,
+                4.0
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

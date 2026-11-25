@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "amethyst",
+  "material": "amethyst",
+  "morphology": "prismatic",
+  "master_resolution": 512
+}

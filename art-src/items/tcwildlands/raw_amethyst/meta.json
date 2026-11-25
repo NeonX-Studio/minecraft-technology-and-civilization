@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "item",
+  "id": "tcwildlands:raw_amethyst",
+  "material": "amethyst",
+  "variants": 1,
+  "emissive": false,
+  "master_resolution": 512,
+  "source_blend": "art-src\\blend\\items\\tcwildlands_items_batch_02.blend",
+  "description": "P1 Wildlands 3D relief item icon (crystal_cluster) for tcwildlands:raw_amethyst"
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "item",
+  "id": "tcwildlands:raw_cinnabar",
+  "material": "cinnabar",
+  "variants": 1,
+  "emissive": false,
+  "master_resolution": 512,
+  "source_blend": "art-src\\blend\\items\\tcwildlands_items_batch_00.blend",
+  "description": "P1 Wildlands 3D relief item icon (angular_ore) for tcwildlands:raw_cinnabar"
+}

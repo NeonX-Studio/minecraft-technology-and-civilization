@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:bitumen_seep",
+  "material": "bitumen",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 13,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_bitumen_seep.blend",
+  "description": "Surface natural asphalt / tar seep pool with viscous bitumen blisters (10-wildlands.md#7.4)"
+}

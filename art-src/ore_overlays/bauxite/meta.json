@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "bauxite",
+  "material": "bauxite",
+  "morphology": "pisolitic",
+  "master_resolution": 512
+}

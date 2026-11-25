@@ -1,0 +1,1103 @@
+{
+  "schema_version": 1,
+  "spec": "docs/design/32-art-audio.md#3.3",
+  "labpbr_version": "1.3",
+  "metal_presets": {
+    "iron": 230,
+    "gold": 231,
+    "aluminum": 232,
+    "chrome": 233,
+    "copper": 234,
+    "lead": 235,
+    "platinum": 236,
+    "silver": 237,
+    "albedo_metal": 255
+  },
+  "materials": {
+    "granite": {
+      "zh_name": "花岗岩",
+      "albedo": [150, 120, 110],
+      "S": 40,
+      "F0": 10,
+      "P": 25,
+      "b_channel": 25,
+      "b_mode": "porosity",
+      "notes": "斑晶 2-6 px@128x"
+    },
+    "basalt_rock": {
+      "zh_name": "玄武岩",
+      "albedo": [60, 60, 62],
+      "S": 35,
+      "F0": 10,
+      "P": 15,
+      "b_channel": 15,
+      "b_mode": "porosity",
+      "notes": "气孔"
+    },
+    "gabbro": {
+      "zh_name": "辉长岩",
+      "albedo": [55, 58, 55],
+      "S": 40,
+      "F0": 10,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "粗晶"
+    },
+    "rhyolite": {
+      "zh_name": "流纹岩",
+      "albedo": [175, 150, 140],
+      "S": 45,
+      "F0": 10,
+      "P": 20,
+      "b_channel": 20,
+      "b_mode": "porosity",
+      "notes": "流纹条带"
+    },
+    "pumice": {
+      "zh_name": "浮岩",
+      "albedo": [190, 185, 175],
+      "S": 15,
+      "F0": 10,
+      "P": 64,
+      "b_channel": 64,
+      "b_mode": "porosity",
+      "notes": "高孔隙"
+    },
+    "peridotite": {
+      "zh_name": "橄榄岩",
+      "albedo": [90, 110, 70],
+      "S": 45,
+      "F0": 10,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "绿色调"
+    },
+    "sandstone_rock": {
+      "zh_name": "砂岩",
+      "albedo": [200, 170, 120],
+      "S": 25,
+      "F0": 10,
+      "P": 55,
+      "b_channel": 55,
+      "b_mode": "porosity",
+      "notes": "层理"
+    },
+    "shale": {
+      "zh_name": "页岩",
+      "albedo": [85, 85, 90],
+      "S": 50,
+      "F0": 10,
+      "P": 20,
+      "b_channel": 20,
+      "b_mode": "porosity",
+      "notes": "薄层"
+    },
+    "limestone": {
+      "zh_name": "石灰岩",
+      "albedo": [190, 185, 170],
+      "S": 40,
+      "F0": 10,
+      "P": 45,
+      "b_channel": 45,
+      "b_mode": "porosity",
+      "notes": "化石碎片可选"
+    },
+    "dolomite": {
+      "zh_name": "白云岩",
+      "albedo": [200, 190, 180],
+      "S": 40,
+      "F0": 10,
+      "P": 40,
+      "b_channel": 40,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "chalk": {
+      "zh_name": "白垩",
+      "albedo": [230, 228, 220],
+      "S": 20,
+      "F0": 10,
+      "P": 64,
+      "b_channel": 64,
+      "b_mode": "porosity",
+      "notes": "燧石结核变体"
+    },
+    "conglomerate": {
+      "zh_name": "砾岩",
+      "albedo": [150, 135, 115],
+      "S": 30,
+      "F0": 10,
+      "P": 45,
+      "b_channel": 45,
+      "b_mode": "porosity",
+      "notes": "嵌砾"
+    },
+    "mudstone": {
+      "zh_name": "泥岩",
+      "albedo": [120, 105, 90],
+      "S": 30,
+      "F0": 10,
+      "P": 50,
+      "b_channel": 50,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "rock_salt": {
+      "zh_name": "岩盐",
+      "albedo": [225, 215, 210],
+      "S": 120,
+      "F0": 12,
+      "SSS": 90,
+      "b_channel": 90,
+      "b_mode": "sss",
+      "notes": "半透"
+    },
+    "gypsum_rock": {
+      "zh_name": "石膏岩",
+      "albedo": [235, 232, 225],
+      "S": 70,
+      "F0": 10,
+      "SSS": 70,
+      "b_channel": 70,
+      "b_mode": "sss",
+      "notes": ""
+    },
+    "slate": {
+      "zh_name": "板岩",
+      "albedo": [70, 75, 80],
+      "S": 90,
+      "F0": 10,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "劈理"
+    },
+    "schist": {
+      "zh_name": "片岩",
+      "albedo": [120, 115, 105],
+      "S": 110,
+      "F0": 10,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "云母闪光（高光滑度条纹）"
+    },
+    "gneiss": {
+      "zh_name": "片麻岩",
+      "albedo": [130, 125, 120],
+      "S": 60,
+      "F0": 10,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "条带"
+    },
+    "marble": {
+      "zh_name": "大理岩",
+      "albedo": [225, 222, 215],
+      "S": 60,
+      "polished_S": 200,
+      "F0": 10,
+      "SSS": 80,
+      "b_channel": 80,
+      "b_mode": "sss",
+      "notes": "磨光 S=200"
+    },
+    "quartzite": {
+      "zh_name": "石英岩",
+      "albedo": [215, 205, 195],
+      "S": 80,
+      "F0": 11,
+      "SSS": 60,
+      "b_channel": 65,
+      "table_b": 60,
+      "b_mode": "sss",
+      "notes": "表格初始标注 SSS 60；LabPBR 1.3 B>=65 进入 SSS 区间"
+    },
+    "oak": {
+      "zh_name": "橡木",
+      "albedo": [162, 130, 78],
+      "albedo_reference": "vanilla_calibrated",
+      "S": 50,
+      "F0": 10,
+      "P": 40,
+      "b_channel": 40,
+      "b_mode": "porosity",
+      "notes": "由原版色调校准；木材整体延续原版树种色相"
+    },
+    "terracotta": {
+      "zh_name": "陶",
+      "albedo": [170, 95, 65],
+      "S": 45,
+      "F0": 10,
+      "P": 50,
+      "b_channel": 50,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "porcelain": {
+      "zh_name": "瓷",
+      "albedo": [240, 240, 235],
+      "S": 200,
+      "F0": 12,
+      "P": 5,
+      "b_channel": 5,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "glass": {
+      "zh_name": "玻璃",
+      "albedo": null,
+      "default_albedo": [230, 242, 245],
+      "transparent": true,
+      "S": 240,
+      "F0": 10,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "透明，F0 0.04"
+    },
+    "bronze": {
+      "zh_name": "青铜",
+      "albedo": [180, 130, 70],
+      "S": 160,
+      "patina_S": 50,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "铜绿变体 S 50"
+    },
+    "wrought_iron": {
+      "zh_name": "熟铁",
+      "albedo": [90, 88, 85],
+      "S": 110,
+      "rust_variant": {"S": 30, "F0": 10},
+      "F0": 230,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "锈蚀层 S 30、F0 10"
+    },
+    "steel": {
+      "zh_name": "钢",
+      "albedo": [150, 152, 155],
+      "S": 190,
+      "F0": 230,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "brass": {
+      "zh_name": "黄铜",
+      "albedo": [200, 160, 80],
+      "S": 190,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "aluminum": {
+      "zh_name": "铝",
+      "albedo": [200, 202, 205],
+      "S": 200,
+      "F0": 232,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "titanium": {
+      "zh_name": "钛",
+      "albedo": [160, 160, 165],
+      "S": 180,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "bakelite": {
+      "zh_name": "电木",
+      "albedo": [60, 35, 20],
+      "S": 170,
+      "F0": 10,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": ""
+    },
+    "plastic": {
+      "zh_name": "注塑塑料",
+      "albedo": null,
+      "default_albedo": [205, 205, 200],
+      "S": 140,
+      "F0": 10,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "依颜色"
+    },
+    "MLI": {
+      "zh_name": "多层隔热",
+      "albedo": [215, 185, 95],
+      "S": 210,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "皱褶法线"
+    },
+    "pegmatite": {
+      "zh_name": "伟晶岩",
+      "albedo": [188, 174, 162],
+      "S": 65,
+      "polished_S": 175,
+      "F0": 11,
+      "P": 18,
+      "b_channel": 18,
+      "b_mode": "porosity",
+      "notes": "巨晶长石石英云母；10-wildlands.md#6.1"
+    },
+    "kimberlite": {
+      "zh_name": "金伯利岩",
+      "albedo": [78, 86, 84],
+      "S": 38,
+      "polished_S": 135,
+      "F0": 10,
+      "P": 30,
+      "b_channel": 30,
+      "b_mode": "porosity",
+      "notes": "角砾状超基性岩管；10-wildlands.md#6.1"
+    },
+    "eclogite": {
+      "zh_name": "榴辉岩",
+      "albedo": [88, 102, 86],
+      "S": 70,
+      "polished_S": 185,
+      "F0": 11,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "绿辉石基质含石榴石斑晶；10-wildlands.md#6.1"
+    },
+    "diorite": {
+      "zh_name": "闪长岩",
+      "albedo": [168, 166, 164],
+      "S": 45,
+      "polished_S": 165,
+      "F0": 10,
+      "P": 20,
+      "b_channel": 20,
+      "b_mode": "porosity",
+      "notes": "斜长石与角闪石斑杂；原版岩石补齐与围岩"
+    },
+    "andesite": {
+      "zh_name": "安山岩",
+      "albedo": [132, 134, 132],
+      "S": 40,
+      "polished_S": 155,
+      "F0": 10,
+      "P": 22,
+      "b_channel": 22,
+      "b_mode": "porosity",
+      "notes": "中酸性火山喷出岩；原版岩石补齐与围岩"
+    },
+    "tuff": {
+      "zh_name": "凝灰岩",
+      "albedo": [112, 114, 106],
+      "S": 22,
+      "polished_S": 115,
+      "F0": 10,
+      "P": 55,
+      "b_channel": 55,
+      "b_mode": "porosity",
+      "notes": "火山碎屑凝灰岩；原版岩石补齐与围岩"
+    },
+    "obsidian": {
+      "zh_name": "黑曜石",
+      "albedo": [68, 64, 76],
+      "S": 195,
+      "polished_S": 235,
+      "F0": 14,
+      "P": 2,
+      "b_channel": 2,
+      "b_mode": "porosity",
+      "notes": "火山玻璃贝壳状断口；原版岩石补齐"
+    },
+    "gravel": {
+      "zh_name": "砾石",
+      "albedo": [128, 124, 120],
+      "S": 25,
+      "F0": 10,
+      "P": 52,
+      "b_channel": 52,
+      "b_mode": "porosity",
+      "notes": "冲积砂矿围岩"
+    },
+    "sand": {
+      "zh_name": "沙",
+      "albedo": [198, 184, 146],
+      "S": 20,
+      "F0": 10,
+      "P": 60,
+      "b_channel": 60,
+      "b_mode": "porosity",
+      "notes": "滨海与河床砂矿围岩"
+    },
+    "mud": {
+      "zh_name": "泥",
+      "albedo": [76, 70, 66],
+      "S": 65,
+      "F0": 12,
+      "P": 64,
+      "b_channel": 64,
+      "b_mode": "porosity",
+      "notes": "湿地沼铁矿围岩"
+    },
+    "loess": {
+      "zh_name": "黄土",
+      "albedo": [182, 156, 112],
+      "S": 18,
+      "F0": 10,
+      "P": 58,
+      "b_channel": 58,
+      "b_mode": "porosity",
+      "notes": "风成粉砂；10-wildlands.md#6.4"
+    },
+    "alluvium": {
+      "zh_name": "冲积土",
+      "albedo": [116, 98, 78],
+      "S": 28,
+      "F0": 10,
+      "P": 54,
+      "b_channel": 54,
+      "b_mode": "porosity",
+      "notes": "河流冲积壤土；10-wildlands.md#6.4"
+    },
+    "silt": {
+      "zh_name": "粉砂",
+      "albedo": [128, 120, 108],
+      "S": 35,
+      "F0": 11,
+      "P": 60,
+      "b_channel": 60,
+      "b_mode": "porosity",
+      "notes": "湖相河口细粒沉积；10-wildlands.md#6.4"
+    },
+    "chernozem": {
+      "zh_name": "黑钙土",
+      "albedo": [68, 60, 54],
+      "S": 24,
+      "F0": 10,
+      "P": 56,
+      "b_channel": 56,
+      "b_mode": "porosity",
+      "notes": "高腐殖质草原黑土；10-wildlands.md#6.4"
+    },
+    "laterite": {
+      "zh_name": "红土",
+      "albedo": [156, 86, 62],
+      "S": 26,
+      "F0": 10,
+      "P": 52,
+      "b_channel": 52,
+      "b_mode": "porosity",
+      "notes": "热带富铁铝风化壳；10-wildlands.md#6.4"
+    },
+    "terra_rossa": {
+      "zh_name": "红色石灰土",
+      "albedo": [148, 82, 64],
+      "S": 32,
+      "F0": 10,
+      "P": 48,
+      "b_channel": 48,
+      "b_mode": "porosity",
+      "notes": "喀斯特石灰岩风化红黏土；10-wildlands.md#6.4"
+    },
+    "marl": {
+      "zh_name": "泥灰岩土",
+      "albedo": [172, 168, 152],
+      "S": 28,
+      "F0": 10,
+      "P": 50,
+      "b_channel": 50,
+      "b_mode": "porosity",
+      "notes": "湖相钙质黏土；10-wildlands.md#6.4"
+    },
+    "till": {
+      "zh_name": "冰碛土",
+      "albedo": [124, 118, 110],
+      "S": 26,
+      "F0": 10,
+      "P": 46,
+      "b_channel": 46,
+      "b_mode": "porosity",
+      "notes": "冰川混杂砾石堆积；10-wildlands.md#6.4"
+    },
+    "permafrost": {
+      "zh_name": "冻土",
+      "albedo": [104, 108, 112],
+      "S": 68,
+      "F0": 11,
+      "P": 30,
+      "b_channel": 30,
+      "b_mode": "porosity",
+      "notes": "含冰胶结高寒冻土；10-wildlands.md#6.4"
+    },
+    "volcanic_ash": {
+      "zh_name": "火山灰",
+      "albedo": [88, 86, 90],
+      "S": 14,
+      "F0": 10,
+      "P": 64,
+      "b_channel": 64,
+      "b_mode": "porosity",
+      "notes": "细粒火山碎屑灰；10-wildlands.md#6.4"
+    },
+    "black_sand": {
+      "zh_name": "黑砂",
+      "albedo": [66, 66, 70],
+      "S": 55,
+      "F0": 14,
+      "P": 48,
+      "b_channel": 48,
+      "b_mode": "porosity",
+      "notes": "含钛铁矿玄武岩海滩黑砂；10-wildlands.md#6.4"
+    },
+    "quartz_sand": {
+      "zh_name": "石英砂",
+      "albedo": [212, 206, 192],
+      "S": 42,
+      "F0": 11,
+      "P": 56,
+      "b_channel": 56,
+      "b_mode": "porosity",
+      "notes": "高纯硅质砂；10-wildlands.md#6.4"
+    },
+    "peat": {
+      "zh_name": "泥炭",
+      "albedo": [78, 58, 42],
+      "S": 20,
+      "F0": 10,
+      "P": 64,
+      "b_channel": 64,
+      "b_mode": "porosity",
+      "notes": "纤维状湿地有机泥炭；10-wildlands.md#6.4"
+    },
+    "kaolinite": {
+      "zh_name": "高岭土",
+      "albedo": [214, 210, 202],
+      "S": 36,
+      "F0": 10,
+      "P": 54,
+      "b_channel": 54,
+      "b_mode": "porosity",
+      "notes": "花岗岩风化白黏土；10-wildlands.md#6.4"
+    },
+    "flood_silt": {
+      "zh_name": "洪积淤泥",
+      "albedo": [106, 92, 74],
+      "S": 58,
+      "F0": 12,
+      "P": 62,
+      "b_channel": 62,
+      "b_mode": "porosity",
+      "notes": "洪水退去新鲜湿润淤泥；10-wildlands.md#6.4"
+    },
+    "saprolite": {
+      "zh_name": "腐泥土",
+      "albedo": [152, 118, 88],
+      "S": 24,
+      "F0": 10,
+      "P": 52,
+      "b_channel": 52,
+      "b_mode": "porosity",
+      "notes": "保留母岩残余结构的原位风化壳；10-wildlands.md#6.4"
+    },
+    "lignite": {
+      "zh_name": "褐煤",
+      "albedo": [74, 58, 46],
+      "S": 45,
+      "F0": 10,
+      "P": 38,
+      "b_channel": 38,
+      "b_mode": "porosity",
+      "notes": "浅层木质结构褐煤；32-art-audio.md#3.7"
+    },
+    "bituminous_coal": {
+      "zh_name": "烟煤",
+      "albedo": [54, 54, 58],
+      "S": 105,
+      "F0": 12,
+      "P": 18,
+      "b_channel": 18,
+      "b_mode": "porosity",
+      "notes": "条带状烟煤层；32-art-audio.md#3.7"
+    },
+    "anthracite": {
+      "zh_name": "无烟煤",
+      "albedo": [48, 50, 54],
+      "S": 170,
+      "F0": 16,
+      "P": 6,
+      "b_channel": 6,
+      "b_mode": "porosity",
+      "notes": "半金属玻璃光泽无烟煤 S=170；32-art-audio.md#3.7"
+    },
+    "gossan": {
+      "zh_name": "铁帽",
+      "albedo": [146, 84, 48],
+      "S": 32,
+      "F0": 10,
+      "P": 52,
+      "b_channel": 52,
+      "b_mode": "porosity",
+      "notes": "蜂窝状褐铁矿赤铁矿氧化帽"
+    },
+    "geyserite": {
+      "zh_name": "硅华",
+      "albedo": [186, 180, 168],
+      "S": 75,
+      "F0": 11,
+      "P": 35,
+      "b_channel": 35,
+      "b_mode": "porosity",
+      "notes": "间歇泉口层状蛋白石硅华"
+    },
+    "bitumen": {
+      "zh_name": "天然沥青",
+      "albedo": [44, 42, 40],
+      "S": 195,
+      "F0": 14,
+      "P": 2,
+      "b_channel": 2,
+      "b_mode": "porosity",
+      "notes": "高光泽黏稠沥青渗出"
+    },
+    "salt_crust": {
+      "zh_name": "盐壳",
+      "albedo": [216, 212, 204],
+      "S": 95,
+      "F0": 12,
+      "SSS": 72,
+      "b_channel": 72,
+      "b_mode": "sss",
+      "notes": "干盐湖多边形龟裂结晶盐壳"
+    },
+    "lava_crust": {
+      "zh_name": "熔岩壳",
+      "albedo": [64, 60, 60],
+      "S": 42,
+      "F0": 10,
+      "P": 16,
+      "b_channel": 16,
+      "b_mode": "porosity",
+      "notes": "冷却绳状玄武熔岩壳含暗红裂隙"
+    },
+    "massive_sulfide": {
+      "zh_name": "块状硫化物",
+      "albedo": [128, 116, 86],
+      "S": 145,
+      "F0": 230,
+      "P": 8,
+      "b_channel": 8,
+      "b_mode": "porosity",
+      "notes": "深地热液多金属块状硫化物"
+    },
+    "brine_fluid": {
+      "zh_name": "卤水",
+      "albedo": [152, 182, 186],
+      "S": 210,
+      "F0": 10,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "高盐度卤水桶图标"
+    },
+    "thermal_water_fluid": {
+      "zh_name": "地热热水",
+      "albedo": [96, 168, 164],
+      "S": 215,
+      "F0": 10,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "富矿温泉热水桶图标"
+    },
+    "native_copper": {
+      "zh_name": "自然铜",
+      "albedo": [188, 108, 74],
+      "S": 140,
+      "F0": 234,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "铜红色树枝状晶体；32-art-audio.md#3.7"
+    },
+    "malachite": {
+      "zh_name": "孔雀石",
+      "albedo": [52, 146, 96],
+      "S": 90,
+      "F0": 10,
+      "P": 18,
+      "b_channel": 18,
+      "b_mode": "porosity",
+      "notes": "绿色同心条带葡萄状结核；32-art-audio.md#3.7"
+    },
+    "chalcopyrite": {
+      "zh_name": "黄铜矿",
+      "albedo": [192, 164, 76],
+      "S": 170,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "黄铜色带彩虹锖色块状颗粒；32-art-audio.md#3.7"
+    },
+    "cassiterite": {
+      "zh_name": "锡石",
+      "albedo": [68, 52, 44],
+      "S": 200,
+      "F0": 25,
+      "P": 6,
+      "b_channel": 6,
+      "b_mode": "porosity",
+      "notes": "深褐黑金刚光泽短柱晶；32-art-audio.md#3.7"
+    },
+    "galena": {
+      "zh_name": "方铅矿",
+      "albedo": [126, 130, 138],
+      "S": 180,
+      "F0": 235,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "铅灰立方解理颗粒；32-art-audio.md#3.7"
+    },
+    "sphalerite": {
+      "zh_name": "闪锌矿",
+      "albedo": [118, 82, 48],
+      "S": 165,
+      "F0": 18,
+      "P": 8,
+      "b_channel": 8,
+      "b_mode": "porosity",
+      "notes": "松脂光泽褐琥珀色等轴晶"
+    },
+    "calamine": {
+      "zh_name": "菱锌矿",
+      "albedo": [168, 186, 184],
+      "S": 85,
+      "F0": 10,
+      "SSS": 70,
+      "b_channel": 70,
+      "b_mode": "sss",
+      "notes": "淡蓝灰葡萄状氧化壳"
+    },
+    "bog_iron": {
+      "zh_name": "沼铁矿",
+      "albedo": [142, 96, 48],
+      "S": 30,
+      "F0": 10,
+      "P": 60,
+      "b_channel": 60,
+      "b_mode": "porosity",
+      "notes": "黄褐色豆状结核；32-art-audio.md#3.7"
+    },
+    "hematite": {
+      "zh_name": "赤铁矿",
+      "albedo": [122, 64, 60],
+      "S": 110,
+      "F0": 230,
+      "P": 10,
+      "b_channel": 10,
+      "b_mode": "porosity",
+      "notes": "暗红至钢灰层状条带；32-art-audio.md#3.7"
+    },
+    "magnetite": {
+      "zh_name": "磁铁矿",
+      "albedo": [64, 66, 70],
+      "S": 120,
+      "F0": 230,
+      "P": 6,
+      "b_channel": 6,
+      "b_mode": "porosity",
+      "notes": "铁黑八面体颗粒；32-art-audio.md#3.7"
+    },
+    "native_gold": {
+      "zh_name": "自然金",
+      "albedo": [226, 186, 74],
+      "S": 200,
+      "F0": 231,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "金黄片状与细脉；32-art-audio.md#3.7"
+    },
+    "native_silver": {
+      "zh_name": "自然银",
+      "albedo": [204, 206, 210],
+      "S": 195,
+      "F0": 237,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "银白带微暗锖色丝状细脉"
+    },
+    "cinnabar": {
+      "zh_name": "辰砂",
+      "albedo": [178, 48, 44],
+      "S": 145,
+      "F0": 22,
+      "P": 12,
+      "b_channel": 12,
+      "b_mode": "porosity",
+      "notes": "朱红金刚光泽晶粒（AR-2 允许真实高饱和矿物）"
+    },
+    "bauxite": {
+      "zh_name": "铝土矿",
+      "albedo": [164, 92, 66],
+      "S": 25,
+      "F0": 10,
+      "P": 64,
+      "b_channel": 64,
+      "b_mode": "porosity",
+      "notes": "红褐豆状鲕粒；32-art-audio.md#3.7"
+    },
+    "chromite": {
+      "zh_name": "铬铁矿",
+      "albedo": [72, 74, 78],
+      "S": 135,
+      "F0": 233,
+      "P": 4,
+      "b_channel": 4,
+      "b_mode": "porosity",
+      "notes": "弱金属光泽铁黑豆荚状颗粒"
+    },
+    "pentlandite": {
+      "zh_name": "镍黄铁矿",
+      "albedo": [184, 162, 108],
+      "S": 165,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "浅青铜黄色岩浆硫化物颗粒"
+    },
+    "wolframite": {
+      "zh_name": "黑钨矿",
+      "albedo": [62, 56, 58],
+      "S": 155,
+      "F0": 230,
+      "P": 4,
+      "b_channel": 4,
+      "b_mode": "porosity",
+      "notes": "褐黑板状半金属晶体"
+    },
+    "molybdenite": {
+      "zh_name": "辉钼矿",
+      "albedo": [118, 126, 138],
+      "S": 175,
+      "F0": 235,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "蓝铅灰色鳞片状金属脉"
+    },
+    "uraninite": {
+      "zh_name": "沥青铀矿",
+      "albedo": [54, 56, 52],
+      "S": 160,
+      "F0": 20,
+      "P": 8,
+      "b_channel": 8,
+      "b_mode": "porosity",
+      "notes": "沥青黑脂状块体；32-art-audio.md#3.7"
+    },
+    "ilmenite": {
+      "zh_name": "钛铁矿",
+      "albedo": [66, 68, 76],
+      "S": 130,
+      "F0": 230,
+      "P": 6,
+      "b_channel": 6,
+      "b_mode": "porosity",
+      "notes": "铁黑厚板状颗粒"
+    },
+    "rutile": {
+      "zh_name": "金红石",
+      "albedo": [132, 62, 48],
+      "S": 195,
+      "F0": 26,
+      "P": 4,
+      "b_channel": 4,
+      "b_mode": "porosity",
+      "notes": "红褐色金刚光泽针柱晶"
+    },
+    "spodumene": {
+      "zh_name": "锂辉石",
+      "albedo": [192, 186, 196],
+      "S": 140,
+      "F0": 11,
+      "SSS": 70,
+      "b_channel": 70,
+      "b_mode": "sss",
+      "notes": "浅紫灰绿玻璃光泽长柱晶"
+    },
+    "monazite": {
+      "zh_name": "独居石",
+      "albedo": [158, 112, 66],
+      "S": 135,
+      "F0": 14,
+      "P": 12,
+      "b_channel": 12,
+      "b_mode": "porosity",
+      "notes": "蜜黄红褐色树脂光泽颗粒"
+    },
+    "cobaltite": {
+      "zh_name": "辉砷钴矿",
+      "albedo": [176, 166, 174],
+      "S": 180,
+      "F0": 255,
+      "P": 0,
+      "b_channel": 0,
+      "b_mode": "porosity",
+      "notes": "微带粉调的银白金属颗粒"
+    },
+    "sulfur": {
+      "zh_name": "自然硫",
+      "albedo": [212, 192, 62],
+      "S": 115,
+      "F0": 12,
+      "SSS": 75,
+      "b_channel": 75,
+      "b_mode": "sss",
+      "notes": "硫黄色油脂光泽结晶"
+    },
+    "niter": {
+      "zh_name": "硝石",
+      "albedo": [224, 222, 216],
+      "S": 75,
+      "F0": 10,
+      "P": 45,
+      "b_channel": 45,
+      "b_mode": "porosity",
+      "notes": "白色针状盐霜皮壳"
+    },
+    "sylvite": {
+      "zh_name": "钾盐",
+      "albedo": [214, 152, 136],
+      "S": 125,
+      "F0": 12,
+      "SSS": 85,
+      "b_channel": 85,
+      "b_mode": "sss",
+      "notes": "肉红橙白色半透明立方盐晶"
+    },
+    "phosphorite": {
+      "zh_name": "磷块岩",
+      "albedo": [148, 140, 124],
+      "S": 45,
+      "F0": 10,
+      "P": 40,
+      "b_channel": 40,
+      "b_mode": "porosity",
+      "notes": "灰褐结核状磷灰石团块"
+    },
+    "graphite": {
+      "zh_name": "石墨",
+      "albedo": [74, 78, 82],
+      "S": 130,
+      "F0": 235,
+      "P": 4,
+      "b_channel": 4,
+      "b_mode": "porosity",
+      "notes": "油脂半金属光泽铁灰鳞片"
+    },
+    "flint": {
+      "zh_name": "燧石",
+      "albedo": [76, 74, 70],
+      "S": 150,
+      "F0": 12,
+      "P": 6,
+      "b_channel": 6,
+      "b_mode": "porosity",
+      "notes": "深灰黑贝壳状断口燧石结核含浅色风化皮"
+    },
+    "diamond": {
+      "zh_name": "金刚石",
+      "albedo": [216, 228, 234],
+      "S": 235,
+      "F0": 44,
+      "SSS": 95,
+      "b_channel": 95,
+      "b_mode": "sss",
+      "notes": "金刚光泽八面体原石 F0=0.17"
+    },
+    "emerald": {
+      "zh_name": "祖母绿",
+      "albedo": [56, 158, 92],
+      "S": 210,
+      "F0": 13,
+      "SSS": 85,
+      "b_channel": 85,
+      "b_mode": "sss",
+      "notes": "翠绿六方柱状绿柱石晶体"
+    },
+    "ruby": {
+      "zh_name": "红宝石",
+      "albedo": [176, 46, 62],
+      "S": 215,
+      "F0": 20,
+      "SSS": 80,
+      "b_channel": 80,
+      "b_mode": "sss",
+      "notes": "深红刚玉桶状晶体"
+    },
+    "sapphire": {
+      "zh_name": "蓝宝石",
+      "albedo": [52, 88, 168],
+      "S": 215,
+      "F0": 20,
+      "SSS": 80,
+      "b_channel": 80,
+      "b_mode": "sss",
+      "notes": "矢车菊蓝刚玉晶体"
+    },
+    "jade": {
+      "zh_name": "玉",
+      "albedo": [96, 148, 108],
+      "S": 165,
+      "F0": 14,
+      "SSS": 105,
+      "b_channel": 105,
+      "b_mode": "sss",
+      "notes": "油脂光泽致密半透明青碧玉"
+    },
+    "lapis": {
+      "zh_name": "青金石",
+      "albedo": [48, 78, 156],
+      "S": 130,
+      "F0": 12,
+      "P": 14,
+      "b_channel": 14,
+      "b_mode": "porosity",
+      "notes": "群青蓝青金石伴微细黄铁矿星点"
+    },
+    "amethyst": {
+      "zh_name": "紫水晶",
+      "albedo": [142, 96, 178],
+      "S": 205,
+      "F0": 12,
+      "SSS": 90,
+      "b_channel": 90,
+      "b_mode": "sss",
+      "notes": "玻璃光泽紫晶晶簇"
+    }
+  }
+}

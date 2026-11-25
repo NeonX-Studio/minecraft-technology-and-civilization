@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "native_gold",
+  "material": "native_gold",
+  "morphology": "dendritic",
+  "master_resolution": 512
+}

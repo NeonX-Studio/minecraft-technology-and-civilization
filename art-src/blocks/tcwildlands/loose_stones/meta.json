@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:loose_stones",
+  "material": "granite",
+  "variants": 2,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 10,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_loose_stones.blend",
+  "description": "Multi-variant scattered surface loose stones indicating underlying bedrock (10-wildlands.md#5.10.5)"
+}

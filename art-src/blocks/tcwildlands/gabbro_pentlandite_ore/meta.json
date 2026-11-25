@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:gabbro_pentlandite_ore",
+  "material": "pentlandite",
+  "host": "gabbro",
+  "mineral": "pentlandite",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (gabbro host + pentlandite overlay; 32-art-audio.md#3.7)"
+}

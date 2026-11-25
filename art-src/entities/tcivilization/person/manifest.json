@@ -1,0 +1,25 @@
+{
+  "lods": {
+    "lod0": {
+      "bones": 17,
+      "mesh_objects": 16,
+      "polygons": 120,
+      "blend": "art-src\\entities\\tcivilization\\person\\person_lod0.blend",
+      "glb": "art-src\\entities\\tcivilization\\person\\person_lod0.glb"
+    },
+    "lod1": {
+      "bones": 6,
+      "mesh_objects": 6,
+      "polygons": 36,
+      "blend": "art-src\\entities\\tcivilization\\person\\person_lod1.blend",
+      "glb": "art-src\\entities\\tcivilization\\person\\person_lod1.glb"
+    },
+    "lod2": {
+      "bones": 0,
+      "mesh_objects": 1,
+      "polygons": 18,
+      "blend": "art-src\\entities\\tcivilization\\person\\person_lod2.blend",
+      "glb": "art-src\\entities\\tcivilization\\person\\person_lod2.glb"
+    }
+  }
+}

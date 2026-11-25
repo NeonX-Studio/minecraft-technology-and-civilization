@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tctechnology:grinding_slab",
+  "material": "sandstone_rock",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 2048,
+  "element_count": 8,
+  "source_blend": "art-src\\blend\\blocks\\tctechnology_grinding_slab.blend",
+  "description": "E1 Neolithic concave sandstone grinding slab with wet abrasive trough and granite hand muller"
+}

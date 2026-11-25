@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:rock_bolts",
+  "material": "steel",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "metal",
+  "master_resolution": 512,
+  "element_count": 17,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_rock_bolts.blend",
+  "description": "E8 ceiling-mounted tensioned rock bolts with bearing plates and steel straps (+30 RMR; 10-wildlands.md#7.4)"
+}

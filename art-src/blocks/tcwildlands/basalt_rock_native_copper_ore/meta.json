@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:basalt_rock_native_copper_ore",
+  "material": "native_copper",
+  "host": "basalt_rock",
+  "mineral": "native_copper",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (basalt_rock host + native_copper overlay; 32-art-audio.md#3.7)"
+}

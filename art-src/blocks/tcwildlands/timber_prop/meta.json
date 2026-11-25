@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:timber_prop",
+  "material": "oak",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 16,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_timber_prop.blend",
+  "description": "E2 mine timber post-and-cap support frame (+10 RMR; 10-wildlands.md#5.10.6)"
+}

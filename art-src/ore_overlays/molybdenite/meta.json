@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "molybdenite",
+  "material": "molybdenite",
+  "morphology": "foliated",
+  "master_resolution": 512
+}

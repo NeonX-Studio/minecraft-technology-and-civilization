@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "hematite",
+  "material": "hematite",
+  "morphology": "foliated",
+  "master_resolution": 512
+}

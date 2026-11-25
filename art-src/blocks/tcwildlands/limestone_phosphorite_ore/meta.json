@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:limestone_phosphorite_ore",
+  "material": "phosphorite",
+  "host": "limestone",
+  "mineral": "phosphorite",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (limestone host + phosphorite overlay; 32-art-audio.md#3.7)"
+}

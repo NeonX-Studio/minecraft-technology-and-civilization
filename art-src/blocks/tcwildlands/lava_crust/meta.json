@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:lava_crust",
+  "material": "lava_crust",
+  "variants": 2,
+  "emissive": true,
+  "iris_category": "lava_like",
+  "master_resolution": 512,
+  "description": "P1 Wildlands seamless 4D-torus PBR block (raw, lava_cracks)"
+}

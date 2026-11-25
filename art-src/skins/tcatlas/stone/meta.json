@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "skin",
+  "id": "tcatlas:skin/stone",
+  "nine_slice": {
+    "left": 6,
+    "right": 6,
+    "top": 6,
+    "bottom": 6
+  },
+  "logical_texture_size": [
+    64,
+    64
+  ],
+  "master_resolution": 512,
+  "widgets": [
+    "frame",
+    "button",
+    "tab",
+    "scrollbar",
+    "toast"
+  ],
+  "palette": {
+    "background": "#E6D8BC",
+    "panel": "#DFCFAF",
+    "text": "#1E1914",
+    "text_muted": "#594A38",
+    "accent": "#7A4B24",
+    "positive": "#2B682C",
+    "warning": "#855300",
+    "critical": "#962420",
+    "icon": "#2C2218"
+  },
+  "source_blend": "art-src\\blend\\skins\\tcatlas_stone.blend"
+}

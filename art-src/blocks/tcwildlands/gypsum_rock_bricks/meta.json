@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:gypsum_rock_bricks",
+  "material": "gypsum_rock",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "P1 Wildlands seamless 4D-torus PBR block (bricks, evaporite_crystalline)"
+}

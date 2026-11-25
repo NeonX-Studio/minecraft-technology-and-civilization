@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:granite_wolframite_ore",
+  "material": "wolframite",
+  "host": "granite",
+  "mineral": "wolframite",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (granite host + wolframite overlay; 32-art-audio.md#3.7)"
+}

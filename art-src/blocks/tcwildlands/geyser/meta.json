@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:geyser",
+  "material": "geyserite",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 18,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_geyser.blend",
+  "description": "Terraced siliceous sinter geyser cone with eruption throat (10-wildlands.md#7.4)"
+}

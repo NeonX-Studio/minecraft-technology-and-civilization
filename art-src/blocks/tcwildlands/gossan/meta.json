@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:gossan",
+  "material": "gossan",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 16,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_gossan.blend",
+  "description": "Weathered cellular iron-oxide gossan caprock above sulfide orebody (10-wildlands.md#5.10.5)"
+}

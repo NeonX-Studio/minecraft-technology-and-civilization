@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:granite_chalcopyrite_ore",
+  "material": "chalcopyrite",
+  "host": "granite",
+  "mineral": "chalcopyrite",
+  "composed_ore": true,
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "Composed LabPBR 1.3 ore (granite host + chalcopyrite overlay; 32-art-audio.md#3.7)"
+}

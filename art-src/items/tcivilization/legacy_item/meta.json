@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "item",
+  "id": "tcivilization:legacy_item",
+  "material": "terracotta",
+  "variants": 1,
+  "emissive": false,
+  "master_resolution": 1024,
+  "source_blend": "art-src\\blend\\items\\tcivilization_legacy_item.blend",
+  "description": "Retired content seal fragment bound with cordage (tcivilization:legacy_item)"
+}

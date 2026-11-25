@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:steel_mine_arch",
+  "material": "steel",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "metal",
+  "master_resolution": 512,
+  "element_count": 21,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_steel_mine_arch.blend",
+  "description": "E6 rolled steel H-beam mine arch support (+20 RMR; 10-wildlands.md#5.10.6)"
+}

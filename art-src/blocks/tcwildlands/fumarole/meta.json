@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:fumarole",
+  "material": "tuff",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "element_count": 16,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_fumarole.blend",
+  "description": "Volcanic fumarole vent mound with yellow native sulfur encrustation (10-wildlands.md#7.4)"
+}

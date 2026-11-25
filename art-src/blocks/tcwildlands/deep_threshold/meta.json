@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:deep_threshold",
+  "material": "basalt_rock",
+  "variants": 1,
+  "emissive": true,
+  "iris_category": "emissive_partial",
+  "master_resolution": 512,
+  "element_count": 12,
+  "source_blend": "art-src\\blend\\blocks\\tcwildlands_deep_threshold.blend",
+  "description": "Indestructible deep-conduit geothermal threshold block with glowing magma fissures (10-wildlands.md#5.16.2)"
+}

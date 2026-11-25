@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "sphalerite",
+  "material": "sphalerite",
+  "morphology": "sulfide_clot",
+  "master_resolution": 512
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "ore_overlay",
+  "mineral": "pentlandite",
+  "material": "pentlandite",
+  "morphology": "sulfide_clot",
+  "master_resolution": 512
+}

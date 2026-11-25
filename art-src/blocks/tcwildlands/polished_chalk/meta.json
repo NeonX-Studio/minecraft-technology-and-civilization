@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "block",
+  "id": "tcwildlands:polished_chalk",
+  "material": "chalk",
+  "variants": 1,
+  "emissive": false,
+  "iris_category": "solid",
+  "master_resolution": 512,
+  "description": "P1 Wildlands seamless 4D-torus PBR block (polished, fine_chalk)"
+}
