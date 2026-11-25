@@ -1,0 +1,35 @@
+{
+  "owner": "tccommons",
+  "era": "industrial",
+  "rp": 2000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 180,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 18,
+        "daily_cap": 90,
+        "hint": "tech.tctechnology.industrial.labor_law.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/constitution"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "society",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcfrontiers",
+  "era": "industrial",
+  "rp": 2000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 500,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 50,
+        "daily_cap": 250,
+        "hint": "tech.tctechnology.industrial.field_fortification.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/gunpowder_artillery",
+    "tctechnology:industrial/steelmaking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "military",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

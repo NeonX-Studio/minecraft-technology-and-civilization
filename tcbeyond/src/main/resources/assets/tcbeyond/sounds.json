@@ -1,0 +1,26 @@
+{
+  "ambient.anomaly_whisper": {
+    "sounds": [
+      "minecraft:ambient/cave/cave1"
+    ],
+    "subtitle": "subtitles.tcbeyond.ambient.anomaly_whisper"
+  },
+  "block.crystal.resonance": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcbeyond.block.crystal.resonance"
+  },
+  "event.surge_horn": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcbeyond.event.surge_horn"
+  },
+  "block.gate.hum": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcbeyond.block.gate.hum"
+  }
+}

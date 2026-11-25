@@ -1,0 +1,36 @@
+{
+  "owner": "tcdiscovery",
+  "era": "medieval",
+  "rp": 700,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 120,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 12,
+        "daily_cap": 60,
+        "hint": "tech.tctechnology.medieval.universities.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/natural_philosophy",
+    "tctechnology:iron/libraries"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcfrontiers",
+  "era": "iron",
+  "rp": 320,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 80,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 8,
+        "daily_cap": 40,
+        "hint": "tech.tctechnology.iron.iron_weaponry.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/bloomery",
+    "tctechnology:bronze/bronze_weaponry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "military",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

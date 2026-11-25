@@ -1,0 +1,35 @@
+{
+  "owner": "tcdiscovery",
+  "era": "renaissance",
+  "rp": 1000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 140,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 14,
+        "daily_cap": 70,
+        "hint": "tech.tctechnology.renaissance.curiosity_cabinets.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/universities"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

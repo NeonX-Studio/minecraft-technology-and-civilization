@@ -1,0 +1,36 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 13000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 1600,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 160,
+        "daily_cap": 800,
+        "hint": "tech.tctechnology.space.methalox_propulsion.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:information/cryogenic_propellants",
+    "tctechnology:space/reusable_launch"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 7
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

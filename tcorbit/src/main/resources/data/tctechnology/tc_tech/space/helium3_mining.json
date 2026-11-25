@@ -1,0 +1,35 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 14000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 2200,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 220,
+        "daily_cap": 1100,
+        "hint": "tech.tctechnology.space.helium3_mining.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/in_situ_resources"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 11
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

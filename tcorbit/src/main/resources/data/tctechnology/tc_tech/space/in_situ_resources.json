@@ -1,0 +1,35 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 15000,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 2600,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 260,
+        "daily_cap": 1300,
+        "hint": "tech.tctechnology.space.in_situ_resources.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/lunar_outpost"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 10
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

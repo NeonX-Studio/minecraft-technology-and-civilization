@@ -1,0 +1,36 @@
+{
+  "owner": "tcbeyond",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 300,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 30,
+        "daily_cap": 150,
+        "hint": "tech.tctechnology.renaissance.threshold_attunement.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/warding_rites",
+    "tctechnology:medieval/magnetic_compass"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

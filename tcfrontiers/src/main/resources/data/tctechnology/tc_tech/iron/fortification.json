@@ -1,0 +1,36 @@
+{
+  "owner": "tcfrontiers",
+  "era": "iron",
+  "rp": 340,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 85,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 8,
+        "daily_cap": 43,
+        "hint": "tech.tctechnology.iron.fortification.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/masonry",
+    "tctechnology:neolithic/watch_and_ward"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "military",
+    "row_hint": 1
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

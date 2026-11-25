@@ -1,0 +1,56 @@
+{
+  "item.signal_horn.blow": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcfrontiers.item.signal_horn.blow"
+  },
+  "entity.bowstring.release": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcfrontiers.entity.bowstring.release"
+  },
+  "event.war_drum": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcfrontiers.event.war_drum"
+  },
+  "block.alarm_bell.ring": {
+    "sounds": [
+      "minecraft:block/bell/bell_use01"
+    ],
+    "subtitle": "subtitles.tcfrontiers.block.alarm_bell.ring"
+  },
+  "entity.trebuchet.release": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcfrontiers.entity.trebuchet.release"
+  },
+  "entity.musket.fire": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcfrontiers.entity.musket.fire"
+  },
+  "entity.cannon.fire": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcfrontiers.entity.cannon.fire"
+  },
+  "entity.machine_gun.fire": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcfrontiers.entity.machine_gun.fire"
+  },
+  "block.air_raid_siren.wail": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcfrontiers.block.air_raid_siren.wail"
+  }
+}

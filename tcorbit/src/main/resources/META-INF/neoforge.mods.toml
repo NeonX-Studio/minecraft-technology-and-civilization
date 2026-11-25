@@ -25,13 +25,27 @@ side="BOTH"
 
 [[dependencies.tcorbit]]
 modId="tcivilization"
-type="optional"
+type="required"
 versionRange="[0.1.0,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.tcorbit]]
 modId="tctechnology"
+type="required"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcorbit]]
+modId="tcindustry"
+type="required"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcorbit]]
+modId="tcskills"
 type="optional"
 versionRange="[0.1.0,)"
 ordering="NONE"

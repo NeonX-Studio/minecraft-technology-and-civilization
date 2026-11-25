@@ -1,0 +1,36 @@
+{
+  "owner": "tcfrontiers",
+  "era": "renaissance",
+  "rp": 1100,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 280,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 28,
+        "daily_cap": 140,
+        "hint": "tech.tctechnology.renaissance.colonial_expeditions.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/frontier_outposts",
+    "tctechnology:renaissance/celestial_navigation"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "military",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

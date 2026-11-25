@@ -1,0 +1,36 @@
+{
+  "owner": "tcdiscovery",
+  "era": "industrial",
+  "rp": 2100,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 220,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 22,
+        "daily_cap": 110,
+        "hint": "tech.tctechnology.industrial.analytical_chemistry.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/scientific_method",
+    "tctechnology:medieval/alchemy"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

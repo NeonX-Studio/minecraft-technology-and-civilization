@@ -1,0 +1,36 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 16000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 2600,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 260,
+        "daily_cap": 1300,
+        "hint": "tech.tctechnology.space.asteroid_mining.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/electric_propulsion",
+    "tctechnology:space/in_situ_resources"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 13
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 14000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 2000,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 200,
+        "daily_cap": 1000,
+        "hint": "tech.tctechnology.space.lunar_landing.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/rendezvous_docking",
+    "tctechnology:information/cryogenic_propellants"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 8
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

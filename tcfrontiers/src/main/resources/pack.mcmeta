@@ -1,6 +1,7 @@
 {
   "pack": {
     "description": "Technology and Civilization module resources",
-    "pack_format": 101
+    "min_format": 97,
+    "max_format": 121
   }
 }

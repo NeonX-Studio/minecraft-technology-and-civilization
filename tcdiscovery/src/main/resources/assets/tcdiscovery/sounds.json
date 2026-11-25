@@ -1,0 +1,38 @@
+{
+  "event.observe_complete": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcdiscovery.event.observe_complete"
+  },
+  "event.discovery_made": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcdiscovery.event.discovery_made"
+  },
+  "item.quill.scratch": {
+    "sounds": [
+      "minecraft:item/book/open_flip1"
+    ],
+    "subtitle": "subtitles.tcdiscovery.item.quill.scratch"
+  },
+  "block.printing_press.stamp": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tcdiscovery.block.printing_press.stamp"
+  },
+  "event.experiment_fail": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcdiscovery.event.experiment_fail"
+  },
+  "ui.page_turn": {
+    "sounds": [
+      "minecraft:item/book/open_flip1"
+    ],
+    "subtitle": "subtitles.tcdiscovery.ui.page_turn"
+  }
+}

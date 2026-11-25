@@ -1,0 +1,38 @@
+{
+  "vehicle.rocket.ignition": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcorbit.vehicle.rocket.ignition"
+  },
+  "vehicle.rocket.countdown": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcorbit.vehicle.rocket.countdown"
+  },
+  "vehicle.rocket.stage_separation": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcorbit.vehicle.rocket.stage_separation"
+  },
+  "vehicle.docking.lock": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcorbit.vehicle.docking.lock"
+  },
+  "vehicle.reentry.plasma": {
+    "sounds": [
+      "minecraft:minecart/base"
+    ],
+    "subtitle": "subtitles.tcorbit.vehicle.reentry.plasma"
+  },
+  "item.eva_suit.warning": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcorbit.item.eva_suit.warning"
+  }
+}

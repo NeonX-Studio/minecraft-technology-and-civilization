@@ -1,0 +1,36 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 15000,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 2400,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 240,
+        "daily_cap": 1200,
+        "hint": "tech.tctechnology.space.orbital_assembly.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/rendezvous_docking",
+    "tctechnology:space/life_support"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 4
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

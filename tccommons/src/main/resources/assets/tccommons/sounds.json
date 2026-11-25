@@ -1,0 +1,32 @@
+{
+  "event.vote.open": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tccommons.event.vote.open"
+  },
+  "event.vote.passed": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tccommons.event.vote.passed"
+  },
+  "event.vote.failed": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tccommons.event.vote.failed"
+  },
+  "block.stele.engrave": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tccommons.block.stele.engrave"
+  },
+  "event.works_complete": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tccommons.event.works_complete"
+  }
+}

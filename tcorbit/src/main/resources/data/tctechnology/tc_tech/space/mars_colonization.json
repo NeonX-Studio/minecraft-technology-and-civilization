@@ -1,0 +1,37 @@
+{
+  "owner": "tcorbit",
+  "era": "space",
+  "rp": 20000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 3200,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 320,
+        "daily_cap": 1600,
+        "hint": "tech.tctechnology.space.mars_colonization.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:space/interplanetary_transfer",
+    "tctechnology:space/in_situ_resources",
+    "tctechnology:space/methalox_propulsion"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 16
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}
