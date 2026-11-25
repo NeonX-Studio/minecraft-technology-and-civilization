@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:bronze",
+  "index": 2,
+  "keystones": [
+    "tctechnology:bronze/smelting",
+    "tctechnology:bronze/alloying",
+    "tctechnology:bronze/writing",
+    "tctechnology:bronze/the_wheel"
+  ],
+  "milestone": "tccommons:law_stele",
+  "population_min": 50,
+  "fallback_population_min": 24,
+  "new_verbs": [
+    "tctechnology:verb/bronze_advance"
+  ],
+  "music": "tctechnology:music.era.bronze",
+  "hud_palette": "tcatlas:skin/bronze"
+}

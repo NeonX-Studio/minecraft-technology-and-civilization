@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "information",
+  "rp": 9000,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcindustry",
+  "knowledge": {
+    "threshold": 400,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcindustry"
+        },
+        "amount": 40,
+        "daily_cap": 200,
+        "hint": "tech.tctechnology.information.integrated_circuit.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/powered_flight",
+    "tctechnology:atomic/nuclear_fission",
+    "tctechnology:atomic/transistor",
+    "tctechnology:atomic/radar"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/information_integrated_circuit"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

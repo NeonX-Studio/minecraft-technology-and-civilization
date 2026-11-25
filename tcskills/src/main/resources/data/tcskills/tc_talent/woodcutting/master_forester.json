@@ -1,0 +1,20 @@
+{
+  "skill": "tcskills:woodcutting",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/axe",
+      "amount": 0.07
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/replant_sapling",
+      "value": 1.0
+    }
+  ],
+  "icon": "tcskills:talent/woodcutting/master_forester"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:stone",
+  "index": 0,
+  "keystones": [
+    "tctechnology:stone/fire_making",
+    "tctechnology:stone/knapping",
+    "tctechnology:stone/foraging_lore",
+    "tctechnology:stone/shelter_building"
+  ],
+  "milestone": "tcsettlements:tribal_hearth",
+  "population_min": 6,
+  "fallback_population_min": 6,
+  "new_verbs": [
+    "tctechnology:verb/stone_advance"
+  ],
+  "music": "tctechnology:music.era.stone",
+  "hud_palette": "tcatlas:skin/stone"
+}

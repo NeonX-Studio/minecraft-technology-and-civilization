@@ -1,0 +1,30 @@
+{
+  "skill": "tcskills:construction",
+  "slot": "t5",
+  "cost": 3,
+  "level": 36,
+  "era_gate": "tcivilization:e6",
+  "modifiers": [
+    {
+      "effect": "tcskills:cost/build",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/repair_discount",
+      "value": 0.15
+    }
+  ],
+  "requires_mod": "tcsettlements",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:cost/build",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/construction/master_builder"
+}

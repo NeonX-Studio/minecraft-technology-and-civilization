@@ -1,0 +1,11 @@
+{
+  "tech": "tctechnology:medieval/papermaking",
+  "when_mod_absent": "tcdiscovery",
+  "recipes": [
+    "minecraft:paper",
+    "minecraft:book",
+    "minecraft:map"
+  ],
+  "items": [],
+  "blocks": []
+}

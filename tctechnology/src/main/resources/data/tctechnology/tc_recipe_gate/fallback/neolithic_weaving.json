@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:neolithic/weaving",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:white_carpet",
+    "minecraft:white_banner"
+  ],
+  "items": [],
+  "blocks": []
+}

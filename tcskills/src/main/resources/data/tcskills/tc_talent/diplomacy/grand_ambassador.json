@@ -1,0 +1,25 @@
+{
+  "skill": "tcskills:diplomacy",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/treaty_slots",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tcnations",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:speed/negotiation",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/diplomacy/grand_ambassador"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:industrial",
+  "index": 6,
+  "keystones": [
+    "tctechnology:industrial/steam_engine",
+    "tctechnology:industrial/railway",
+    "tctechnology:industrial/steelmaking",
+    "tctechnology:industrial/machine_tools"
+  ],
+  "milestone": "tcnetworks:trunk_railway",
+  "population_min": 1500,
+  "fallback_population_min": 43,
+  "new_verbs": [
+    "tctechnology:verb/industrial_advance"
+  ],
+  "music": "tctechnology:music.era.industrial",
+  "hud_palette": "tcatlas:skin/industrial"
+}

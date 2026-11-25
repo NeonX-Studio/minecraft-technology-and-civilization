@@ -1,0 +1,36 @@
+{
+  "owner": "tctechnology",
+  "era": "neolithic",
+  "rp": 80,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 40,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 4,
+        "daily_cap": 20,
+        "hint": "tech.tctechnology.neolithic.craft_lineage.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/hearth_council",
+    "tctechnology:stone/shelter_building"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "tools",
+    "row_hint": 4
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

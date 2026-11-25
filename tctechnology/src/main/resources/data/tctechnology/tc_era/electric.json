@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:electric",
+  "index": 7,
+  "keystones": [
+    "tctechnology:electric/power_grid",
+    "tctechnology:electric/telegraphy",
+    "tctechnology:electric/internal_combustion",
+    "tctechnology:electric/industrial_chemistry"
+  ],
+  "milestone": "tcindustry:regional_grid",
+  "population_min": 3000,
+  "fallback_population_min": 48,
+  "new_verbs": [
+    "tctechnology:verb/electric_advance"
+  ],
+  "music": "tctechnology:music.era.electric",
+  "hud_palette": "tcatlas:skin/electric"
+}

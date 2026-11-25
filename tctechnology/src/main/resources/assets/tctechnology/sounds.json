@@ -1,0 +1,137 @@
+{
+  "event.era_advance": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tctechnology.event.era_advance"
+  },
+  "event.tech_unlocked": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tctechnology.event.tech_unlocked"
+  },
+  "ui.insight": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tctechnology.ui.insight"
+  },
+  "block.knapping.strike": {
+    "sounds": [
+      "minecraft:random/anvil_use"
+    ],
+    "subtitle": "subtitles.tctechnology.block.knapping.strike"
+  },
+  "block.fire_pit.crackle": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tctechnology.block.fire_pit.crackle"
+  },
+  "item.fire_drill.spin": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tctechnology.item.fire_drill.spin"
+  },
+  "music.era.stone": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.stone"
+  },
+  "music.era.neolithic": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.neolithic"
+  },
+  "music.era.bronze": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.bronze"
+  },
+  "music.era.iron": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.iron"
+  },
+  "music.era.medieval": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.medieval"
+  },
+  "music.era.renaissance": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.renaissance"
+  },
+  "music.era.industrial": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.industrial"
+  },
+  "music.era.electric": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.electric"
+  },
+  "music.era.atomic": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.atomic"
+  },
+  "music.era.information": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.information"
+  },
+  "music.era.space": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.tctechnology.music.era.space"
+  }
+}

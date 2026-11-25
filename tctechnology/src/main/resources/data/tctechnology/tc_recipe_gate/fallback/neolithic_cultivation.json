@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:neolithic/cultivation",
+  "when_mod_absent": "tccultivation",
+  "recipes": [
+    "minecraft:composter",
+    "minecraft:lead"
+  ],
+  "items": [],
+  "blocks": []
+}

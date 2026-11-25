@@ -1,0 +1,26 @@
+{
+  "skill": "tcskills:husbandry",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:husbandry/herder",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/breed_traits",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tccultivation",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:speed/breeding",
+        "amount": 0.1
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/husbandry/breeder"
+}

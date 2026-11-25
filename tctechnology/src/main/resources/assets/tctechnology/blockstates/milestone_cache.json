@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tctechnology:block/milestone_cache"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "tctechnology",
+  "era": "neolithic",
+  "rp": 50,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 30,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 3,
+        "daily_cap": 15,
+        "hint": "tech.tctechnology.neolithic.flatbow.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/archery"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "tools",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

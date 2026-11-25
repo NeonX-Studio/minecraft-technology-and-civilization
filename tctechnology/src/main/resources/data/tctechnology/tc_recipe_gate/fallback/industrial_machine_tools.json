@@ -1,0 +1,14 @@
+{
+  "tech": "tctechnology:industrial/machine_tools",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_shovel",
+    "minecraft:diamond_hoe",
+    "minecraft:diamond_sword",
+    "minecraft:smithing_table"
+  ],
+  "items": [],
+  "blocks": []
+}

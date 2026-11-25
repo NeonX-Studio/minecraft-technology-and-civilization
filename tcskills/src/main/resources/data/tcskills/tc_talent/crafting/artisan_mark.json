@@ -1,0 +1,20 @@
+{
+  "skill": "tcskills:crafting",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [
+    {
+      "effect": "tcskills:cost/handcraft",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/maker_mark",
+      "value": 1.0
+    }
+  ],
+  "icon": "tcskills:talent/crafting/artisan_mark"
+}

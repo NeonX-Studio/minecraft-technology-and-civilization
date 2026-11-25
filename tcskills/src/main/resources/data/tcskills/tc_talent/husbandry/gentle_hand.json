@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:husbandry",
+  "slot": "t1",
+  "cost": 1,
+  "level": 5,
+  "era_gate": "tcivilization:e0",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/breeding",
+      "amount": 0.1
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/husbandry/gentle_hand"
+}

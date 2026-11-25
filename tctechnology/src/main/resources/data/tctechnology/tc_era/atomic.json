@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:atomic",
+  "index": 8,
+  "keystones": [
+    "tctechnology:atomic/powered_flight",
+    "tctechnology:atomic/nuclear_fission",
+    "tctechnology:atomic/transistor",
+    "tctechnology:atomic/radar"
+  ],
+  "milestone": "tcnetworks:intercontinental_air_route",
+  "population_min": 5000,
+  "fallback_population_min": 53,
+  "new_verbs": [
+    "tctechnology:verb/atomic_advance"
+  ],
+  "music": "tctechnology:music.era.atomic",
+  "hud_palette": "tcatlas:skin/atomic"
+}

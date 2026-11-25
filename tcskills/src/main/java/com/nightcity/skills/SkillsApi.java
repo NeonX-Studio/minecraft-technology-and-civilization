@@ -1,8 +1,12 @@
 package com.nightcity.skills;
 
+import com.nightcity.skills.api.Skill;
 import net.minecraft.server.level.ServerLevel;
+import net.neoforged.fml.ModList;
 
+import java.util.Optional;
 import java.util.UUID;
+import java.util.function.Predicate;
 
 public final class SkillsApi {
     private SkillsApi() {
@@ -20,15 +24,14 @@ public final class SkillsApi {
         return getProfile(level, playerId).skillLevel(skill);
     }
 
-    public static double getProficiencyMultiplier(ServerLevel level, UUID playerId, String skill) {
+    public static double getProficiencyMultiplier(ServerLevel level, UUID playerId, String skillRaw) {
         PlayerSkillsProfile profile = getProfile(level, playerId);
-        double multiplier = 1.0 + Math.min(profile.skillLevel(skill) - 1, 20) * 0.05;
-        if (profile.hasTalent("efficient_learner")) {
-            multiplier += 0.10;
+        Optional<Skill> skillOpt = Skill.resolve(skillRaw);
+        if (skillOpt.isEmpty()) {
+            return 1.0D;
         }
-        if (profile.hasTalent(skill + "_specialist")) {
-            multiplier += 0.15;
-        }
-        return multiplier;
+        Skill skill = skillOpt.get();
+        Predicate<String> modCheck = m -> ModList.get() != null && ModList.get().isLoaded(m);
+        return profile.multiplier(skill, skill.primaryEffect(), TSkills.talents().snapshot(), modCheck);
     }
 }

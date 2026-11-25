@@ -1,0 +1,11 @@
+{
+  "tech": "tctechnology:stone/shelter_building",
+  "when_mod_absent": "tcsettlements",
+  "recipes": [
+    "minecraft:oak_door",
+    "minecraft:oak_trapdoor",
+    "minecraft:white_bed"
+  ],
+  "items": [],
+  "blocks": []
+}

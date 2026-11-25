@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:medieval",
+  "index": 4,
+  "keystones": [
+    "tctechnology:medieval/water_power",
+    "tctechnology:medieval/papermaking",
+    "tctechnology:medieval/guilds",
+    "tctechnology:medieval/magnetic_compass"
+  ],
+  "milestone": "tcdiscovery:academy",
+  "population_min": 300,
+  "fallback_population_min": 33,
+  "new_verbs": [
+    "tctechnology:verb/medieval_advance"
+  ],
+  "music": "tctechnology:music.era.medieval",
+  "hud_palette": "tcatlas:skin/medieval"
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tctechnology",
+  "era": "space",
+  "rp": 13000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 500,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 50,
+        "daily_cap": 250,
+        "hint": "tech.tctechnology.space.knowledge_ark.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:information/collaborative_research",
+    "tctechnology:space/orbital_assembly"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

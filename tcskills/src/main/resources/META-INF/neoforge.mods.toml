@@ -36,3 +36,17 @@ type="optional"
 versionRange="[0.1.0,)"
 ordering="NONE"
 side="BOTH"
+
+[[dependencies.tcskills]]
+modId="tcsettlements"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcskills]]
+modId="tcbeyond"
+type="optional"
+versionRange="[0.1.0,)"
+ordering="NONE"
+side="BOTH"

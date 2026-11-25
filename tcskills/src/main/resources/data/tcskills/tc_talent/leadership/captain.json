@@ -1,0 +1,31 @@
+{
+  "skill": "tcskills:leadership",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:leadership/steward",
+  "modifiers": [
+    {
+      "effect": "tcskills:capacity/command",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/squad_order",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tcfrontiers",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:capacity/command",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/leadership/captain"
+}

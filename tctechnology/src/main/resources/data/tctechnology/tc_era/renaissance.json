@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:renaissance",
+  "index": 5,
+  "keystones": [
+    "tctechnology:renaissance/printing_press",
+    "tctechnology:renaissance/celestial_navigation",
+    "tctechnology:renaissance/banking",
+    "tctechnology:renaissance/scientific_method"
+  ],
+  "milestone": "tcexchange:overseas_trading_post",
+  "population_min": 700,
+  "fallback_population_min": 38,
+  "new_verbs": [
+    "tctechnology:verb/renaissance_advance"
+  ],
+  "music": "tctechnology:music.era.renaissance",
+  "hud_palette": "tcatlas:skin/renaissance"
+}

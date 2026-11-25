@@ -1,0 +1,30 @@
+{
+  "skill": "tcskills:foraging",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/forage",
+      "amount": 0.1
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/wild_regrow",
+      "value": 0.25
+    }
+  ],
+  "requires_mod": "tcecology",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:speed/forage",
+        "amount": 0.1
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/foraging/forest_steward"
+}

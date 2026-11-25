@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "neolithic",
+  "rp": 60,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcindustry",
+  "knowledge": {
+    "threshold": 30,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcindustry"
+        },
+        "amount": 3,
+        "daily_cap": 15,
+        "hint": "tech.tctechnology.neolithic.weaving.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:stone/fire_making",
+    "tctechnology:stone/knapping",
+    "tctechnology:stone/foraging_lore",
+    "tctechnology:stone/shelter_building"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/neolithic_weaving"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "industry",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

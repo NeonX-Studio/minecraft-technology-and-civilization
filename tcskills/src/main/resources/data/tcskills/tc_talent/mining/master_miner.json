@@ -1,0 +1,20 @@
+{
+  "skill": "tcskills:mining",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [
+    {
+      "effect": "tcskills:yield/ore",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/vein_sense",
+      "value": 6.0
+    }
+  ],
+  "icon": "tcskills:talent/mining/master_miner"
+}

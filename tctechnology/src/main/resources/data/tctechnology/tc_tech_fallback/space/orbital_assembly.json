@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "space",
+  "rp": 13000,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcorbit",
+  "knowledge": {
+    "threshold": 500,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcorbit"
+        },
+        "amount": 50,
+        "daily_cap": 250,
+        "hint": "tech.tctechnology.space.orbital_assembly.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:information/integrated_circuit",
+    "tctechnology:information/computer_networks",
+    "tctechnology:information/rocketry",
+    "tctechnology:information/automation"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/space_orbital_assembly"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "space",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

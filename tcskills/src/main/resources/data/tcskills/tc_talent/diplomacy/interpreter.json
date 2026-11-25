@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:diplomacy",
+  "slot": "t2",
+  "cost": 1,
+  "level": 12,
+  "era_gate": "tcivilization:e1",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/negotiation",
+      "amount": 0.1
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/diplomacy/interpreter"
+}

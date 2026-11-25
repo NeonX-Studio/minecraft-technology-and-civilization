@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:arcana",
+  "slot": "t1",
+  "cost": 1,
+  "level": 5,
+  "era_gate": "tcivilization:e0",
+  "modifiers": [
+    {
+      "effect": "tcskills:precision/ritual",
+      "amount": 0.03
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/arcana/attunement"
+}

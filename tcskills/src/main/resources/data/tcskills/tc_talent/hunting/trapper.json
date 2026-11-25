@@ -1,0 +1,26 @@
+{
+  "skill": "tcskills:hunting",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:hunting/stalker",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/trap_bonus",
+      "value": 0.15
+    }
+  ],
+  "requires_mod": "tcecology",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:yield/animal_drop",
+        "amount": 0.03
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/hunting/trapper"
+}

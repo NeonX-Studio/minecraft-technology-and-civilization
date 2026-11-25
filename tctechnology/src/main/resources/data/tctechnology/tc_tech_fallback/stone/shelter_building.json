@@ -1,0 +1,39 @@
+{
+  "owner": "tctechnology",
+  "era": "stone",
+  "rp": 20,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcsettlements",
+  "knowledge": {
+    "threshold": 10,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcsettlements"
+        },
+        "amount": 1,
+        "daily_cap": 5,
+        "hint": "tech.tctechnology.stone.shelter_building.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/stone_shelter_building"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "settlement",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

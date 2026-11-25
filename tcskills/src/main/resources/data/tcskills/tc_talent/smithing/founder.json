@@ -1,0 +1,26 @@
+{
+  "skill": "tcskills:smithing",
+  "slot": "t3b",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:smithing/bladesmith",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/cast_yield",
+      "value": 0.1
+    }
+  ],
+  "requires_mod": "tcindustry",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:cost/fuel",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/smithing/founder"
+}

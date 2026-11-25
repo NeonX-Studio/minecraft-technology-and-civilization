@@ -1,0 +1,25 @@
+{
+  "skill": "tcskills:scholarship",
+  "slot": "t2",
+  "cost": 1,
+  "level": 12,
+  "era_gate": "tcivilization:e1",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/observe_progress",
+      "value": 0.15
+    }
+  ],
+  "requires_mod": "tcdiscovery",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:speed/research",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/scholarship/scholars_eye"
+}

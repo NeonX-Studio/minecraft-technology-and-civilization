@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:iron/bloomery",
+  "recipes": [
+    "minecraft:flint_and_steel"
+  ],
+  "items": [
+    "minecraft:flint_and_steel"
+  ],
+  "blocks": []
+}

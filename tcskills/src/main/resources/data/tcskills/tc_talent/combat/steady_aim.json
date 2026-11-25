@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:combat",
+  "slot": "t2",
+  "cost": 1,
+  "level": 12,
+  "era_gate": "tcivilization:e1",
+  "modifiers": [
+    {
+      "effect": "tcskills:precision/aim",
+      "amount": 0.1
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/combat/steady_aim"
+}

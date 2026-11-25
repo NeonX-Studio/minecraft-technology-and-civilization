@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:neolithic",
+  "index": 1,
+  "keystones": [
+    "tctechnology:neolithic/cultivation",
+    "tctechnology:neolithic/pottery",
+    "tctechnology:neolithic/animal_husbandry",
+    "tctechnology:neolithic/weaving"
+  ],
+  "milestone": "tccultivation:first_granary",
+  "population_min": 20,
+  "fallback_population_min": 16,
+  "new_verbs": [
+    "tctechnology:verb/neolithic_advance"
+  ],
+  "music": "tctechnology:music.era.neolithic",
+  "hud_palette": "tcatlas:skin/neolithic"
+}

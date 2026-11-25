@@ -1,0 +1,9 @@
+{
+  "tech": "tctechnology:neolithic/flatbow",
+  "when_mod_absent": "tcfrontiers",
+  "recipes": [
+    "minecraft:bow"
+  ],
+  "items": [],
+  "blocks": []
+}

@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:woodcutting",
+  "slot": "t4",
+  "cost": 2,
+  "level": 28,
+  "era_gate": "tcivilization:e4",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/axe",
+      "amount": 0.08
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/woodcutting/heavy_axe"
+}

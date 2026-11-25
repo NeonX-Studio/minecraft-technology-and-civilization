@@ -1,0 +1,16 @@
+{
+  "skill": "tcskills:engineering",
+  "slot": "t3b",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:engineering/diagnostician",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/circuit_view",
+      "value": 16.0
+    }
+  ],
+  "icon": "tcskills:talent/engineering/redstone_savant"
+}

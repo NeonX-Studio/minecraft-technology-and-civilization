@@ -12,6 +12,11 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 
 public final class SkillsEvents {
     @SubscribeEvent
+    public void onAddReloadListeners(net.neoforged.neoforge.event.AddServerReloadListenersEvent event) {
+        event.addListener(net.minecraft.resources.Identifier.fromNamespaceAndPath(TSkills.MOD_ID, "talents"), TSkills.talents());
+    }
+
+    @SubscribeEvent
     public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
         if (event.getEntity() instanceof ServerPlayer player) {
             SkillsSavedData.get((ServerLevel) player.level()).profile(player.getUUID());

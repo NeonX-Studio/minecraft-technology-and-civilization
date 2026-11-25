@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:information",
+  "index": 9,
+  "keystones": [
+    "tctechnology:information/integrated_circuit",
+    "tctechnology:information/computer_networks",
+    "tctechnology:information/rocketry",
+    "tctechnology:information/automation"
+  ],
+  "milestone": "tcorbit:first_satellite",
+  "population_min": 8000,
+  "fallback_population_min": 58,
+  "new_verbs": [
+    "tctechnology:verb/information_advance"
+  ],
+  "music": "tctechnology:music.era.information",
+  "hud_palette": "tcatlas:skin/information"
+}

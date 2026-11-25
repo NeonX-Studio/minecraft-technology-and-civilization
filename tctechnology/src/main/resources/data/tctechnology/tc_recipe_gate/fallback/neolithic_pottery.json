@@ -1,0 +1,11 @@
+{
+  "tech": "tctechnology:neolithic/pottery",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:brick",
+    "minecraft:flower_pot",
+    "minecraft:decorated_pot"
+  ],
+  "items": [],
+  "blocks": []
+}

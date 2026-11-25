@@ -1,0 +1,30 @@
+{
+  "skill": "tcskills:engineering",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [
+    {
+      "effect": "tcskills:wear/machine",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/overhaul",
+      "value": 0.25
+    }
+  ],
+  "requires_mod": "tcindustry",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:wear/machine",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/engineering/chief_engineer"
+}

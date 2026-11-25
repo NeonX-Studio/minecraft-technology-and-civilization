@@ -1,0 +1,13 @@
+{
+  "tech": "tctechnology:bronze/smelting",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:furnace",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe",
+    "minecraft:stone_shovel",
+    "minecraft:stone_hoe"
+  ],
+  "items": [],
+  "blocks": []
+}

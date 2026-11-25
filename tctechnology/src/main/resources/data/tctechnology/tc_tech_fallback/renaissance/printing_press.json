@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcdiscovery",
+  "knowledge": {
+    "threshold": 140,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcdiscovery"
+        },
+        "amount": 14,
+        "daily_cap": 70,
+        "hint": "tech.tctechnology.renaissance.printing_press.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/water_power",
+    "tctechnology:medieval/papermaking",
+    "tctechnology:medieval/guilds",
+    "tctechnology:medieval/magnetic_compass"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/renaissance_printing_press"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

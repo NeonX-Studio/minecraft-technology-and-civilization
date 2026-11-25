@@ -1,0 +1,25 @@
+{
+  "skill": "tcskills:cooking",
+  "slot": "t4",
+  "cost": 2,
+  "level": 28,
+  "era_gate": "tcivilization:e4",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/feast_bonus",
+      "value": 0.1
+    }
+  ],
+  "requires_mod": "tcsettlements",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:quality/food",
+        "amount": 0.03
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/cooking/banquet"
+}

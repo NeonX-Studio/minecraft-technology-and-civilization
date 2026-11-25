@@ -1,0 +1,25 @@
+{
+  "skill": "tcskills:medicine",
+  "slot": "t4",
+  "cost": 2,
+  "level": 28,
+  "era_gate": "tcivilization:e4",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/remedy_yield",
+      "value": 0.15
+    }
+  ],
+  "requires_mod": "tccultivation",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:learning/medicine",
+        "amount": 0.15
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/medicine/apothecary"
+}

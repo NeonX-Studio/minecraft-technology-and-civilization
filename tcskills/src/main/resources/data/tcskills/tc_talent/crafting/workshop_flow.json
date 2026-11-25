@@ -1,0 +1,19 @@
+{
+  "skill": "tcskills:crafting",
+  "slot": "t4",
+  "cost": 2,
+  "level": 28,
+  "era_gate": "tcivilization:e4",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/handcraft",
+      "amount": 0.05
+    },
+    {
+      "effect": "tcskills:learning/crafting",
+      "amount": 0.1
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/crafting/workshop_flow"
+}

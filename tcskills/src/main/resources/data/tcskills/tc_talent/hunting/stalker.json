@@ -1,0 +1,31 @@
+{
+  "skill": "tcskills:hunting",
+  "slot": "t3b",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:hunting/trapper",
+  "modifiers": [
+    {
+      "effect": "tcskills:precision/tracking",
+      "amount": 0.1
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/flee_reduce",
+      "value": 0.1
+    }
+  ],
+  "requires_mod": "tcecology",
+  "fallback": {
+    "modifiers": [],
+    "ops": [
+      {
+        "op": "tcskills:op/quarry_sense",
+        "value": 24.0
+      }
+    ]
+  },
+  "icon": "tcskills:talent/hunting/stalker"
+}

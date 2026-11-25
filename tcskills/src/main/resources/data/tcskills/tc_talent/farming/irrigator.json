@@ -1,0 +1,26 @@
+{
+  "skill": "tcskills:farming",
+  "slot": "t3b",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:farming/seed_saver",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/irrigation",
+      "value": 0.1
+    }
+  ],
+  "requires_mod": "tccultivation",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:yield/crop",
+        "amount": 0.03
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/farming/irrigator"
+}

@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:woodcutting",
+  "slot": "t5",
+  "cost": 3,
+  "level": 36,
+  "era_gate": "tcivilization:e6",
+  "modifiers": [
+    {
+      "effect": "tcskills:wear/axe",
+      "amount": 0.15
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/woodcutting/sap_reader"
+}

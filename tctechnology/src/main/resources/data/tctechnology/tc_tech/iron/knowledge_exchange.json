@@ -1,0 +1,36 @@
+{
+  "owner": "tctechnology",
+  "era": "iron",
+  "rp": 320,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 70,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 7,
+        "daily_cap": 35,
+        "hint": "tech.tctechnology.iron.knowledge_exchange.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/artifact_study"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": true,
+  "fallback_effect": "tctechnology:diplomatic_fallback"
+}

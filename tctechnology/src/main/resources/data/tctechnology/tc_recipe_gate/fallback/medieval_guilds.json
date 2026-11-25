@@ -1,0 +1,9 @@
+{
+  "tech": "tctechnology:medieval/guilds",
+  "when_mod_absent": "tcfrontiers",
+  "recipes": [
+    "minecraft:crossbow"
+  ],
+  "items": [],
+  "blocks": []
+}

@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "atomic",
+  "rp": 6000,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcnetworks",
+  "knowledge": {
+    "threshold": 320,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcnetworks"
+        },
+        "amount": 32,
+        "daily_cap": 160,
+        "hint": "tech.tctechnology.atomic.powered_flight.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/power_grid",
+    "tctechnology:electric/telegraphy",
+    "tctechnology:electric/internal_combustion",
+    "tctechnology:electric/industrial_chemistry"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/atomic_powered_flight"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

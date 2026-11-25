@@ -1,0 +1,18 @@
+{
+  "id": "tctechnology:space",
+  "index": 10,
+  "keystones": [
+    "tctechnology:space/life_support",
+    "tctechnology:space/orbital_assembly",
+    "tctechnology:space/in_situ_resources",
+    "tctechnology:space/interplanetary_transfer"
+  ],
+  "milestone": "tcorbit:mars_colony",
+  "population_min": 12000,
+  "fallback_population_min": 63,
+  "new_verbs": [
+    "tctechnology:verb/space_advance"
+  ],
+  "music": "tctechnology:music.era.space",
+  "hud_palette": "tcatlas:skin/space"
+}

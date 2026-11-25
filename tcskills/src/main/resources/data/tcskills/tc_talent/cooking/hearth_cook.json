@@ -1,0 +1,16 @@
+{
+  "skill": "tcskills:cooking",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:cooking/preserver",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/extra_portion",
+      "value": 0.1
+    }
+  ],
+  "icon": "tcskills:talent/cooking/hearth_cook"
+}

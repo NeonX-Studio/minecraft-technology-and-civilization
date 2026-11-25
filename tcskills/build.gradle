@@ -43,3 +43,8 @@ neoForge {
 sourceSets.main.resources {
     srcDir 'src/generated/resources'
 }
+
+sourceSets.test {
+    compileClasspath += sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.runtimeClasspath
+}

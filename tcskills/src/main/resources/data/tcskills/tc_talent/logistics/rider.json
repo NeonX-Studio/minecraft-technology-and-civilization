@@ -1,0 +1,15 @@
+{
+  "skill": "tcskills:logistics",
+  "slot": "t2",
+  "cost": 1,
+  "level": 12,
+  "era_gate": "tcivilization:e1",
+  "modifiers": [
+    {
+      "effect": "tcskills:speed/vehicle",
+      "amount": 0.05
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/logistics/rider"
+}

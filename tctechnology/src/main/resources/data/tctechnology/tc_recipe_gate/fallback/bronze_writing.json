@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:bronze/writing",
+  "when_mod_absent": "tcdiscovery",
+  "recipes": [
+    "minecraft:writable_book",
+    "minecraft:lectern"
+  ],
+  "items": [],
+  "blocks": []
+}

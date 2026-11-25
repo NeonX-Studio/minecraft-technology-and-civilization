@@ -1,0 +1,30 @@
+{
+  "skill": "tcskills:exploration",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [
+    {
+      "effect": "tcskills:yield/loot",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/first_footprint",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tcivilization",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:yield/loot",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/exploration/grand_explorer"
+}

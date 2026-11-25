@@ -1,0 +1,31 @@
+{
+  "skill": "tcskills:exploration",
+  "slot": "t3b",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:exploration/pathfinder",
+  "modifiers": [
+    {
+      "effect": "tcskills:yield/loot",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/ruin_lore",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tcechoes",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:yield/loot",
+        "amount": 0.08
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/exploration/relic_hunter"
+}

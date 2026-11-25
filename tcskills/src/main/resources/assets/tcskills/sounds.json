@@ -1,0 +1,32 @@
+{
+  "ui.skill_level_up": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcskills.ui.skill_level_up"
+  },
+  "ui.growth_level_up": {
+    "sounds": [
+      "minecraft:random/levelup"
+    ],
+    "subtitle": "subtitles.tcskills.ui.growth_level_up"
+  },
+  "ui.talent_commit": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcskills.ui.talent_commit"
+  },
+  "ui.specialty_select": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcskills.ui.specialty_select"
+  },
+  "ui.respec": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcskills.ui.respec"
+  }
+}

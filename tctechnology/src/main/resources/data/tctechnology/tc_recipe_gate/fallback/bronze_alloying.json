@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:bronze/alloying",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:lightning_rod",
+    "minecraft:spyglass"
+  ],
+  "items": [],
+  "blocks": []
+}

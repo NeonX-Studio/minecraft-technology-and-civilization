@@ -1,0 +1,30 @@
+{
+  "skill": "tcskills:hunting",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/rare_quarry",
+      "value": 0.1
+    }
+  ],
+  "requires_mod": "tcecology",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:precision/tracking",
+        "amount": 0.05
+      }
+    ],
+    "ops": [
+      {
+        "op": "tcskills:op/quarry_sense",
+        "value": 32.0
+      }
+    ]
+  },
+  "icon": "tcskills:talent/hunting/apex_hunter"
+}

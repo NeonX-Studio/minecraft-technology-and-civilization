@@ -1,0 +1,36 @@
+{
+  "skill": "tcskills:mining",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:mining/shaft_foreman",
+  "modifiers": [
+    {
+      "effect": "tcskills:yield/ore",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/prospect",
+      "value": 0.15
+    }
+  ],
+  "requires_mod": "tcwildlands",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:yield/ore",
+        "amount": 0.05
+      }
+    ],
+    "ops": [
+      {
+        "op": "tcskills:op/vein_sense",
+        "value": 5.0
+      }
+    ]
+  },
+  "icon": "tcskills:talent/mining/prospector"
+}

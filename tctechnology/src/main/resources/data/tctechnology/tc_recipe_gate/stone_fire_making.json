@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:stone/fire_making",
+  "recipes": [
+    "minecraft:torch"
+  ],
+  "items": [
+    "minecraft:torch"
+  ],
+  "blocks": []
+}

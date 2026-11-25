@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "medieval",
+  "rp": 650,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcexchange",
+  "knowledge": {
+    "threshold": 100,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcexchange"
+        },
+        "amount": 10,
+        "daily_cap": 50,
+        "hint": "tech.tctechnology.medieval.guilds.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/bloomery",
+    "tctechnology:iron/coinage",
+    "tctechnology:iron/road_building",
+    "tctechnology:iron/masonry"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/medieval_guilds"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "economy",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

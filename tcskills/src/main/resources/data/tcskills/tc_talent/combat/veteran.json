@@ -1,0 +1,30 @@
+{
+  "skill": "tcskills:combat",
+  "slot": "t5",
+  "cost": 3,
+  "level": 36,
+  "era_gate": "tcivilization:e6",
+  "modifiers": [
+    {
+      "effect": "tcskills:precision/aim",
+      "amount": 0.05
+    }
+  ],
+  "ops": [
+    {
+      "op": "tcskills:op/battle_read",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tcfrontiers",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:learning/combat",
+        "amount": 0.1
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/combat/veteran"
+}

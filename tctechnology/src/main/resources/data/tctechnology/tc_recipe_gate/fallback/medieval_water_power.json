@@ -1,0 +1,10 @@
+{
+  "tech": "tctechnology:medieval/water_power",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:grindstone",
+    "minecraft:stonecutter"
+  ],
+  "items": [],
+  "blocks": []
+}

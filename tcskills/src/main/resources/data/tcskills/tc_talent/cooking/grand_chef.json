@@ -1,0 +1,25 @@
+{
+  "skill": "tcskills:cooking",
+  "slot": "c",
+  "cost": 4,
+  "level": 45,
+  "era_gate": "tcivilization:e8",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/signature_dish",
+      "value": 1.0
+    }
+  ],
+  "requires_mod": "tccultivation",
+  "fallback": {
+    "modifiers": [],
+    "ops": [
+      {
+        "op": "tcskills:op/extra_portion",
+        "value": 0.2
+      }
+    ]
+  },
+  "icon": "tcskills:talent/cooking/grand_chef"
+}

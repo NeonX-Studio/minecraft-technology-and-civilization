@@ -1,0 +1,19 @@
+{
+  "skill": "tcskills:cooking",
+  "slot": "t1",
+  "cost": 1,
+  "level": 5,
+  "era_gate": "tcivilization:e0",
+  "modifiers": [
+    {
+      "effect": "tcskills:cost/fuel",
+      "amount": 0.05
+    },
+    {
+      "effect": "tcskills:learning/cooking",
+      "amount": 0.1
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/cooking/even_heat"
+}

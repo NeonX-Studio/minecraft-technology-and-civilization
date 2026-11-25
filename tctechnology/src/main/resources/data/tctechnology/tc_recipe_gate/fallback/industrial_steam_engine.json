@@ -1,0 +1,11 @@
+{
+  "tech": "tctechnology:industrial/steam_engine",
+  "when_mod_absent": "tcindustry",
+  "recipes": [
+    "minecraft:blast_furnace",
+    "minecraft:piston",
+    "minecraft:rail"
+  ],
+  "items": [],
+  "blocks": []
+}

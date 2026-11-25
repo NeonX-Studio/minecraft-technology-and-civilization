@@ -1,0 +1,16 @@
+{
+  "skill": "tcskills:woodcutting",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:woodcutting/forester",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/tree_fell",
+      "value": 12.0
+    }
+  ],
+  "icon": "tcskills:talent/woodcutting/feller"
+}

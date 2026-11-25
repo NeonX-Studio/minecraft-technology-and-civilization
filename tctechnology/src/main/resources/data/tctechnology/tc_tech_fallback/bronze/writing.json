@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "bronze",
+  "rp": 150,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcdiscovery",
+  "knowledge": {
+    "threshold": 45,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcdiscovery"
+        },
+        "amount": 4,
+        "daily_cap": 23,
+        "hint": "tech.tctechnology.bronze.writing.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:neolithic/cultivation",
+    "tctechnology:neolithic/pottery",
+    "tctechnology:neolithic/animal_husbandry",
+    "tctechnology:neolithic/weaving"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/bronze_writing"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

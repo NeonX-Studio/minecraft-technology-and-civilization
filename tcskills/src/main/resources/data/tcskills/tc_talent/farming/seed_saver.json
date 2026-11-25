@@ -1,0 +1,16 @@
+{
+  "skill": "tcskills:farming",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:farming/irrigator",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/seed_return",
+      "value": 0.25
+    }
+  ],
+  "icon": "tcskills:talent/farming/seed_saver"
+}

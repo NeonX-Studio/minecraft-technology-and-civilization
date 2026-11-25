@@ -1,0 +1,16 @@
+{
+  "skill": "tcskills:aeronautics",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e7",
+  "exclusive_with": "tcskills:aeronautics/airship_master",
+  "modifiers": [
+    {
+      "effect": "tcskills:cost/propellant",
+      "amount": 0.05
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/aeronautics/aviator"
+}

@@ -1,0 +1,19 @@
+{
+  "skill": "tcskills:exploration",
+  "slot": "t4",
+  "cost": 2,
+  "level": 28,
+  "era_gate": "tcivilization:e4",
+  "modifiers": [
+    {
+      "effect": "tcskills:yield/loot",
+      "amount": 0.03
+    },
+    {
+      "effect": "tcskills:learning/exploration",
+      "amount": 0.1
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/exploration/trailblazer"
+}

@@ -1,0 +1,44 @@
+{
+  "owner": "tctechnology",
+  "era": "electric",
+  "rp": 3800,
+  "keystone": true,
+  "fallback": true,
+  "original_owner": "tcnetworks",
+  "knowledge": {
+    "threshold": 250,
+    "sources": [
+      {
+        "type": "SUBMIT",
+        "trigger": "tctechnology:submit_items",
+        "params": {
+          "category": "tcnetworks"
+        },
+        "amount": 25,
+        "daily_cap": 125,
+        "hint": "tech.tctechnology.electric.telegraphy.fallback_hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:industrial/steam_engine",
+    "tctechnology:industrial/railway",
+    "tctechnology:industrial/steelmaking",
+    "tctechnology:industrial/machine_tools"
+  ],
+  "unlocks": {
+    "recipes": [
+      "tctechnology:fallback/electric_telegraphy"
+    ],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "transport",
+    "row_hint": 0
+  },
+  "icon": "minecraft:knowledge_book",
+  "diplomatic": false
+}

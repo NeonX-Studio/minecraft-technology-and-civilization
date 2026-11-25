@@ -1,0 +1,36 @@
+{
+  "owner": "tctechnology",
+  "era": "renaissance",
+  "rp": 1200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 140,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 14,
+        "daily_cap": 70,
+        "hint": "tech.tctechnology.renaissance.research_patronage.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:medieval/codified_crafts",
+    "tctechnology:renaissance/banking"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "knowledge",
+    "row_hint": 0
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

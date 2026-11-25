@@ -1,0 +1,16 @@
+{
+  "skill": "tcskills:arcana",
+  "slot": "t3a",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:arcana/anomaly_reader",
+  "modifiers": [
+    {
+      "effect": "tcskills:precision/ritual",
+      "amount": 0.04
+    }
+  ],
+  "ops": [],
+  "icon": "tcskills:talent/arcana/ritualist"
+}

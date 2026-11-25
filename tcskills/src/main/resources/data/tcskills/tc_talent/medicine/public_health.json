@@ -1,0 +1,26 @@
+{
+  "skill": "tcskills:medicine",
+  "slot": "t3b",
+  "cost": 2,
+  "level": 20,
+  "era_gate": "tcivilization:e2",
+  "exclusive_with": "tcskills:medicine/surgeon",
+  "modifiers": [],
+  "ops": [
+    {
+      "op": "tcskills:op/sanitation",
+      "value": 0.15
+    }
+  ],
+  "requires_mod": "tcsettlements",
+  "fallback": {
+    "modifiers": [
+      {
+        "effect": "tcskills:speed/treatment",
+        "amount": 0.05
+      }
+    ],
+    "ops": []
+  },
+  "icon": "tcskills:talent/medicine/public_health"
+}
