@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tcatlas:block/ranging_pole"
+    }
+  }
+}

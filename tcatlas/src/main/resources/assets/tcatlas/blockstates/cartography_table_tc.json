@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tcatlas:block/cartography_table_tc"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcatlas",
+  "era": "industrial",
+  "rp": 2200,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 520,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 52,
+        "daily_cap": 260,
+        "hint": "tech.tctechnology.industrial.triangulation.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:renaissance/marine_chronometer",
+    "tctechnology:industrial/machine_tools"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

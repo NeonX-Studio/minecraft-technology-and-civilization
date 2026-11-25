@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tcatlas:block/ground_station"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcatlas",
+  "era": "iron",
+  "rp": 320,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 90,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 9,
+        "daily_cap": 45,
+        "hint": "tech.tctechnology.iron.road_survey.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:bronze/landmark_survey",
+    "tctechnology:iron/road_building"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

@@ -1,0 +1,36 @@
+{
+  "owner": "tcatlas",
+  "era": "space",
+  "rp": 13000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 2800,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 280,
+        "daily_cap": 1400,
+        "hint": "tech.tctechnology.space.satellite_imagery.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:information/gis",
+    "tctechnology:information/rocketry"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

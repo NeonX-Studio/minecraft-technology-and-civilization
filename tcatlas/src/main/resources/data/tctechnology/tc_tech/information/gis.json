@@ -1,0 +1,36 @@
+{
+  "owner": "tcatlas",
+  "era": "information",
+  "rp": 9000,
+  "keystone": false,
+  "knowledge": {
+    "threshold": 2000,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 200,
+        "daily_cap": 1000,
+        "hint": "tech.tctechnology.information.gis.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:atomic/aerial_photography",
+    "tctechnology:information/integrated_circuit"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 3
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

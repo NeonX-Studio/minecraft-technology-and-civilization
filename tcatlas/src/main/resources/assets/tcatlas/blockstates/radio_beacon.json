@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tcatlas:block/radio_beacon"
+    }
+  }
+}

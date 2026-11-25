@@ -1,0 +1,42 @@
+{
+  "parent": "tcivilization:skin/neutral",
+  "palette": {
+    "background": "#EFE6CF",
+    "panel": "#E1D4B4",
+    "text": "#1E1610",
+    "text_muted": "#57493A",
+    "accent": "#6B3E26",
+    "positive": "#256128",
+    "warning": "#764800",
+    "critical": "#8B1C1C",
+    "icon": "#2B2017"
+  },
+  "frame": {
+    "texture": "tcatlas:textures/gui/skin/medieval/frame.png",
+    "nine_slice": {
+      "left": 6,
+      "right": 6,
+      "top": 6,
+      "bottom": 6
+    },
+    "texture_size": [
+      64,
+      64
+    ]
+  },
+  "widgets": {
+    "button": "tcatlas:textures/gui/skin/medieval/button.png",
+    "tab": "tcatlas:textures/gui/skin/medieval/tab.png",
+    "scrollbar": "tcatlas:textures/gui/skin/medieval/scrollbar.png",
+    "toast": "tcatlas:textures/gui/skin/medieval/toast.png"
+  },
+  "sounds": {
+    "click": "tcatlas:ui.medieval.click",
+    "page": "tcatlas:ui.medieval.page",
+    "open": "tcatlas:ui.medieval.open"
+  },
+  "effects": {
+    "scanlines": false,
+    "paper_grain": 0.35
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "tcivilization:skin/neutral",
+  "palette": {
+    "background": "#0F1B2D",
+    "panel": "#16263E",
+    "text": "#E6F4FF",
+    "text_muted": "#9EC1DF",
+    "accent": "#4FD1C5",
+    "positive": "#68D391",
+    "warning": "#F6AD55",
+    "critical": "#FC8181",
+    "icon": "#BEE3F8"
+  },
+  "frame": {
+    "texture": "tcatlas:textures/gui/skin/space/frame.png",
+    "nine_slice": {
+      "left": 6,
+      "right": 6,
+      "top": 6,
+      "bottom": 6
+    },
+    "texture_size": [
+      64,
+      64
+    ]
+  },
+  "widgets": {
+    "button": "tcatlas:textures/gui/skin/space/button.png",
+    "tab": "tcatlas:textures/gui/skin/space/tab.png",
+    "scrollbar": "tcatlas:textures/gui/skin/space/scrollbar.png",
+    "toast": "tcatlas:textures/gui/skin/space/toast.png"
+  },
+  "sounds": {
+    "click": "tcatlas:ui.space.click",
+    "page": "tcatlas:ui.space.page",
+    "open": "tcatlas:ui.space.open"
+  },
+  "effects": {
+    "scanlines": false,
+    "paper_grain": 0.0
+  }
+}

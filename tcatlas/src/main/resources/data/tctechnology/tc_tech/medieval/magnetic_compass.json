@@ -1,0 +1,35 @@
+{
+  "owner": "tcatlas",
+  "era": "medieval",
+  "rp": 650,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 170,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 17,
+        "daily_cap": 85,
+        "hint": "tech.tctechnology.medieval.magnetic_compass.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:iron/road_survey"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 2
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}

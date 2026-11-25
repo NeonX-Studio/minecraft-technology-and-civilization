@@ -1,0 +1,42 @@
+{
+  "parent": "tcivilization:skin/neutral",
+  "palette": {
+    "background": "#EFE5CE",
+    "panel": "#E2D3B3",
+    "text": "#26190D",
+    "text_muted": "#5C4833",
+    "accent": "#824E24",
+    "positive": "#266329",
+    "warning": "#7A4B00",
+    "critical": "#8C1D1D",
+    "icon": "#302012"
+  },
+  "frame": {
+    "texture": "tcatlas:textures/gui/skin/neolithic/frame.png",
+    "nine_slice": {
+      "left": 6,
+      "right": 6,
+      "top": 6,
+      "bottom": 6
+    },
+    "texture_size": [
+      64,
+      64
+    ]
+  },
+  "widgets": {
+    "button": "tcatlas:textures/gui/skin/neolithic/button.png",
+    "tab": "tcatlas:textures/gui/skin/neolithic/tab.png",
+    "scrollbar": "tcatlas:textures/gui/skin/neolithic/scrollbar.png",
+    "toast": "tcatlas:textures/gui/skin/neolithic/toast.png"
+  },
+  "sounds": {
+    "click": "tcatlas:ui.neolithic.click",
+    "page": "tcatlas:ui.neolithic.page",
+    "open": "tcatlas:ui.neolithic.open"
+  },
+  "effects": {
+    "scanlines": false,
+    "paper_grain": 0.4
+  }
+}

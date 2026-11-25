@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tcatlas:block/plane_table"
+    }
+  }
+}

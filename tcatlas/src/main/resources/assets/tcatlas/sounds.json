@@ -1,0 +1,98 @@
+{
+  "ui.map.open": {
+    "sounds": [
+      "minecraft:ui/cartography_table/drawmap1"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.map.open"
+  },
+  "ui.map.close": {
+    "sounds": [
+      "minecraft:ui/cartography_table/drawmap1"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.map.close"
+  },
+  "ui.waypoint.add": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.waypoint.add"
+  },
+  "ui.layout.snap": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.layout.snap"
+  },
+  "block.theodolite.adjust": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcatlas.block.theodolite.adjust"
+  },
+  "block.radar.sweep": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcatlas.block.radar.sweep"
+  },
+  "item.compass.needle": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcatlas.item.compass.needle"
+  },
+  "item.camera.shutter": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcatlas.item.camera.shutter"
+  },
+  "item.gps.fix": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcatlas.item.gps.fix"
+  },
+  "ui.map_open": {
+    "sounds": [
+      "minecraft:ui/cartography_table/drawmap1"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.map_open"
+  },
+  "ui.map_close": {
+    "sounds": [
+      "minecraft:ui/cartography_table/drawmap1"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.map_close"
+  },
+  "ui.pin_place": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.pin_place"
+  },
+  "ui.era_skin_transition": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.era_skin_transition"
+  },
+  "ui.toast.stone": {
+    "sounds": [
+      "minecraft:random/click_stereo"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.toast.stone"
+  },
+  "ui.alert.drum": {
+    "sounds": [
+      "minecraft:note/pling"
+    ],
+    "subtitle": "subtitles.tcatlas.ui.alert.drum"
+  },
+  "block.theodolite.sight": {
+    "sounds": [
+      "minecraft:random/click"
+    ],
+    "subtitle": "subtitles.tcatlas.block.theodolite.sight"
+  }
+}

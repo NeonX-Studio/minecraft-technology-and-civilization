@@ -1,0 +1,36 @@
+{
+  "owner": "tcatlas",
+  "era": "atomic",
+  "rp": 6500,
+  "keystone": true,
+  "knowledge": {
+    "threshold": 1450,
+    "sources": [
+      {
+        "type": "PRACTICE",
+        "trigger": "tctechnology:submit_items",
+        "params": {},
+        "amount": 145,
+        "daily_cap": 725,
+        "hint": "tech.tctechnology.atomic.radar.hint"
+      }
+    ]
+  },
+  "prerequisites": [
+    "tctechnology:electric/telegraphic_reporting",
+    "tctechnology:electric/power_grid"
+  ],
+  "unlocks": {
+    "recipes": [],
+    "items": [],
+    "blocks": [],
+    "features": [],
+    "jobs": []
+  },
+  "tree": {
+    "lane": "nature",
+    "row_hint": 5
+  },
+  "icon": "minecraft:book",
+  "diplomatic": false
+}
